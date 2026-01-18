@@ -1,0 +1,3860 @@
+{
+    "roles": {
+        "Full Stack Developer": {
+            "description": "A Full Stack Developer handles both the front-end (user interface) and back-end (server, database) of web applications.",
+            "salary_range": "$70,000 - $150,000+ per year depends on location and experience.",
+            "key_skills": [
+                "JavaScript/TypeScript",
+                "React/Vue/Angular",
+                "Node.js/Python",
+                "SQL/NoSQL",
+                "Git",
+                "REST APIs"
+            ],
+            "soft_skills": [
+                "Problem Solving",
+                "Communication",
+                "Time Management",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn HTML, CSS, and JavaScript fundamentals.",
+                "2. Master a frontend framework like React or Vue.",
+                "3. Learn backend basics with Node.js or Python (Django/Flask).",
+                "4. Understand databases (SQL vs NoSQL).",
+                "5. Practice building full projects (e.g., E-commerce site, Task Manager).",
+                "6. Learn DevOps basics (Docker, CI/CD)."
+            ],
+            "interview_questions": [
+                "What is the difference between SQL and NoSQL databases?",
+                "Explain the concept of RESTful APIs.",
+                "What is the Virtual DOM in React?",
+                "How do you handle state management in a complex application?",
+                "Describe a challenging bug you fixed and how you approached it."
+            ]
+        },
+        "Data Scientist": {
+            "description": "A Data Scientist specializes in Python, Machine Learning, Pandas. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Statistics",
+                "Machine Learning",
+                "Data Analysis",
+                "Pandas",
+                "Python",
+                "SQL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Python.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Python?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Machine Learning Engineer": {
+            "description": "A Machine Learning Engineer specializes in Scikit-learn, Modeling, Deployment. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "Scikit-learn",
+                "Deployment",
+                "Modeling",
+                "Python",
+                "Algorithms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and Scikit-learn.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Scikit-learn?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "DevOps Engineer": {
+            "description": "A DevOps Engineer specializes in CI/CD, Docker, Jenkins. Streamlining development and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Docker",
+                "Jenkins",
+                "Linux",
+                "Scripting",
+                "Automation",
+                "CI/CD"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Linux and CI/CD.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with CI/CD?",
+                "How do you handle challenges in Linux?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Frontend Developer": {
+            "description": "Frontend Developers focus on the user-facing part of websites and applications, ensuring they look good and function correctly.",
+            "salary_range": "$65,000 - $130,000+ per year.",
+            "key_skills": [
+                "HTML5/CSS3",
+                "JavaScript (ES6+)",
+                "React/Vue",
+                "Responsive Design",
+                "Web Performance",
+                "Accessibility"
+            ],
+            "soft_skills": [
+                "Creativity",
+                "Empathy (User Centric)",
+                "Detail Oriented"
+            ],
+            "roadmap": [
+                "1. Master HTML, CSS, and modern JavaScript.",
+                "2. Learn CSS Frameworks (Tailwind, Bootstrap).",
+                "3. Deep dive into a JS Framework (React is dominant).",
+                "4. Understand Browser rendering and DOM.",
+                "5. Learn specific tools like Webpack, Vite.",
+                "6. Focus on Web Vital metrics and Accessibility."
+            ],
+            "interview_questions": [
+                "What is the difference between Local Storage, Session Storage, and Cookies?",
+                "Explain the CSS Box Model.",
+                "What are Semantic HTML tags and why are they important?",
+                "Explain 'this' keyword in JavaScript.",
+                "How do you optimize a website for performance?"
+            ]
+        },
+        "Backend Developer": {
+            "description": "Backend Developers focus on server-side logic, databases, APIs, and the architecture of the system.",
+            "salary_range": "$75,000 - $150,000+ per year.",
+            "key_skills": [
+                "Java/Python/Node.js/Go",
+                "SQL/NoSQL",
+                "System Design",
+                "APIs (REST/GraphQL)",
+                "Authentication",
+                "Caching"
+            ],
+            "soft_skills": [
+                "Logic/Analytical Thinking",
+                "Problem Solving"
+            ],
+            "roadmap": [
+                "1. Choose a backend language (Python, Node.js, Java, Go).",
+                "2. Master Database Design (Normalization, Indexing).",
+                "3. Learn API Design standards.",
+                "4. Understand Authentication/Authorization (JWT, OAuth).",
+                "5. Learn Caching strategies (Redis).",
+                "6. Study System Design concepts."
+            ],
+            "interview_questions": [
+                "Explain ACID properties in databases.",
+                "What is the difference between Horizontal and Vertical scaling?",
+                "How do you protect an API from abuse (Rate Limiting)?",
+                "Explain the concept of Microservices.",
+                "How does a hash map work?"
+            ]
+        },
+        "Mobile Developer": {
+            "description": "Mobile Developers specialize in building apps for platforms like iOS (Apple) and Android (Google).",
+            "salary_range": "$80,000 - $145,000+ per year.",
+            "key_skills": [
+                "Swift (iOS)",
+                "Kotlin (Android)",
+                "React Native/Flutter",
+                "Firebase",
+                "Git",
+                "Mobile UI Design"
+            ],
+            "soft_skills": [
+                "Attention to Detail",
+                "Creativity",
+                "Problem Solving"
+            ],
+            "roadmap": [
+                "1. Choose a platform: iOS (Swift) or Android (Kotlin).",
+                "2. Learn the fundamentals of the language.",
+                "3. Understand the mobile development lifecycle and IDE (Xcode/Android Studio).",
+                "4. Learn about APIs and networking on mobile.",
+                "5. Explore Cross-Platform frameworks like Flutter or React Native.",
+                "6. Publish an app to the App Store or Play Store."
+            ],
+            "interview_questions": [
+                "Explain the Activity Lifecycle in Android or View Lifecycle in iOS.",
+                "What is the difference between Native and Cross-Platform development?",
+                "How do you handle memory management in mobile apps?",
+                "Explain the concept of Async/Await.",
+                "How would you debug a crashing app?"
+            ]
+        },
+        "UI/UX Designer": {
+            "description": "UI/UX Designers create the look and feel of a product, ensuring it's both visually appealing and easy to use.",
+            "salary_range": "$70,000 - $135,000+ per year.",
+            "key_skills": [
+                "Figma/Adobe XD",
+                "Wireframing/Prototyping",
+                "User Research",
+                "Information Architecture",
+                "Interaction Design",
+                "HTML/CSS (Basic)"
+            ],
+            "soft_skills": [
+                "Empathy",
+                "Communication",
+                "Feedback Receptiveness"
+            ],
+            "roadmap": [
+                "1. Learn the principles of Design (Color, Typography, Layout).",
+                "2. Master design tools like Figma or Adobe XD.",
+                "3. Understand User Research methods (Personas, User Journeys).",
+                "4. Learn Content Strategy and Information Architecture.",
+                "5. Practice Prototyping and Wireframing.",
+                "6. Build a portfolio of case studies."
+            ],
+            "interview_questions": [
+                "Walk me through your design process.",
+                "How do you handle disagreement with a developer or product manager?",
+                "What is the difference between UI and UX?",
+                "How do you conduct user testing?",
+                "Critique a popular app's design."
+            ]
+        },
+        "Cybersecurity Analyst": {
+            "description": "Cybersecurity Analysts plan and carry out security measures to protect an organization's computer networks and systems.",
+            "salary_range": "$85,000 - $150,000+ per year.",
+            "key_skills": [
+                "Network Security",
+                "Linux/Unix",
+                "Python/Scripting",
+                "Incident Response",
+                "SIEM Tools",
+                "Ethical Hacking"
+            ],
+            "soft_skills": [
+                "Analytical Thinking",
+                "Integrity",
+                "Grace Under Pressure"
+            ],
+            "roadmap": [
+                "1. Master Networking fundamentals (OSI Model, TCP/IP).",
+                "2. Learn Operating Systems (Linux is crucial).",
+                "3. Understand Security Principles (CIA Triad).",
+                "4. Learn Scripting (Python, Bash).",
+                "5. Get certified (CompTIA Security+, CEH).",
+                "6. Practice with CTF (Capture The Flag) challenges."
+            ],
+            "interview_questions": [
+                "What is the CIA triad?",
+                "How do you secure a Linux server?",
+                "Explain how a DDoS attack works.",
+                "What is the difference between Symmetric and Asymmetric encryption?",
+                "How would you handle a data breach?"
+            ]
+        },
+        "Product Manager": {
+            "description": "A Product Manager specializes in Roadmapping, Prioritization, Stakeholders. Managing products and business processes.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Communication",
+                "Prioritization",
+                "Stakeholders",
+                "Planning",
+                "Leadership",
+                "Roadmapping"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Roadmapping.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Roadmapping?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "AI Engineer": {
+            "description": "A AI Engineer specializes in TensorFlow, PyTorch, Cloud. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "TensorFlow",
+                "Cloud",
+                "PyTorch",
+                "Python",
+                "Algorithms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and TensorFlow.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with TensorFlow?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Deep Learning Engineer": {
+            "description": "A Deep Learning Engineer specializes in Neural Networks, Deep Learning, CUDA. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "CUDA",
+                "Mathematics",
+                "Neural Networks",
+                "Deep Learning",
+                "Python",
+                "Algorithms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and Neural Networks.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Neural Networks?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "NLP Engineer": {
+            "description": "A NLP Engineer specializes in NLP, NLTK, Transformers, Linguistics. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "Transformers",
+                "NLTK",
+                "NLP",
+                "Python",
+                "Algorithms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and NLP.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with NLP?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Computer Vision Engineer": {
+            "description": "A Computer Vision Engineer specializes in OpenCV, Image Processing, CNNs. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "CNNs",
+                "Image Processing",
+                "Python",
+                "Algorithms",
+                "OpenCV"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and OpenCV.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with OpenCV?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "MLOps Engineer": {
+            "description": "A MLOps Engineer specializes in Docker, Kubernetes, CI/CD, Model Monitoring. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Docker",
+                "Mathematics",
+                "Kubernetes",
+                "Python",
+                "Algorithms",
+                "Model Monitoring"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and Docker.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Docker?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Data Engineer": {
+            "description": "A Data Engineer specializes in ETL, Spark, Big Data, Pipelines. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Spark",
+                "Pipelines",
+                "Big Data",
+                "Statistics",
+                "Data Analysis",
+                "ETL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and ETL.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with ETL?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Business Intelligence Analyst": {
+            "description": "A Business Intelligence Analyst specializes in Power BI, Tableau, Dashboards. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Statistics",
+                "Data Analysis",
+                "Power BI",
+                "Tableau",
+                "Dashboards",
+                "SQL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Power BI.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Power BI?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "React Developer": {
+            "description": "A React Developer specializes in React, Redux, Hooks. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Hooks",
+                "Git",
+                "Redux",
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and React.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with React?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Angular Developer": {
+            "description": "A Angular Developer specializes in Angular, TypeScript, RxJS. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Git",
+                "JavaScript",
+                "TypeScript",
+                "CSS",
+                "RxJS",
+                "HTML"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and Angular.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Angular?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Vue Developer": {
+            "description": "A Vue Developer specializes in Vue.js, Vuex, Composition API. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Git",
+                "Composition API",
+                "JavaScript",
+                "Vuex",
+                "CSS",
+                "HTML"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and Vue.js.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Vue.js?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Android Developer": {
+            "description": "A Android Developer specializes in Java, Kotlin, Android Studio. Building applications for mobile devices.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "API Integration",
+                "Kotlin",
+                "Git",
+                "Java",
+                "Android Studio",
+                "Mobile Architecture"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Git and Java.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Java?",
+                "How do you handle challenges in Git?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "iOS Developer": {
+            "description": "A iOS Developer specializes in Swift, Xcode, Auto Layout. Building applications for mobile devices.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "API Integration",
+                "Git",
+                "Swift",
+                "Xcode",
+                "Auto Layout",
+                "Mobile Architecture"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Git and Swift.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Swift?",
+                "How do you handle challenges in Git?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Flutter Developer": {
+            "description": "A Flutter Developer specializes in Dart, Flutter, Cross-Platform. Building applications for mobile devices.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "API Integration",
+                "Dart",
+                "Git",
+                "Cross-Platform",
+                "Flutter",
+                "Mobile Architecture"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Git and Dart.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Dart?",
+                "How do you handle challenges in Git?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Cloud Engineer": {
+            "description": "A Cloud Engineer specializes in AWS, Azure, Terraform. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "AWS",
+                "Networking",
+                "Linux",
+                "Terraform",
+                "Cloud Platforms",
+                "Azure"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and AWS.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with AWS?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Site Reliability Engineer (SRE)": {
+            "description": "A Site Reliability Engineer (SRE) specializes in SLO/SLA, Automation, Incident Response. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Linux",
+                "Incident Response",
+                "SLO/SLA",
+                "Cloud Platforms",
+                "Automation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and SLO/SLA.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with SLO/SLA?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Penetration Tester": {
+            "description": "Simulate cyberattacks to find security vulnerabilities.",
+            "salary_range": "$Depends on experience.",
+            "key_skills": [
+                "Ethical Hacking",
+                "Python",
+                "Linux",
+                "Metasploit",
+                "Burp Suite",
+                "Networking"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Master the basics of Ethical Hacking and Python.",
+                "2. Build foundational projects.",
+                "3. Learn advanced frameworks and tools.",
+                "4. Contribute to open source or real-world projects.",
+                "5. Prepare for interviews and build a portfolio."
+            ],
+            "interview_questions": [
+                "What is your experience with Ethical Hacking?",
+                "How do you handle challenges in Penetration Tester?",
+                "Describe a complex project you worked on.",
+                "What tools do you prefer for Python?",
+                "How do you stay updated with industry trends?"
+            ]
+        },
+        "Security Architect": {
+            "description": "A Security Architect specializes in Secure Design, Cryptography, Identity. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Secure Design",
+                "Networking",
+                "Security Principles",
+                "Cryptography",
+                "Identity",
+                "Risk Analysis"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and Secure Design.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Secure Design?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "QA Engineer": {
+            "description": "A QA Engineer specializes in Test Plans, Bug Tracking, Jira. Ensuring software quality.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Attention to Detail",
+                "Documentation",
+                "Test Plans",
+                "Bug Tracking",
+                "Jira",
+                "Testing Methodologies"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Testing Methodologies and Test Plans.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Test Plans?",
+                "How do you handle challenges in Testing Methodologies?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Automation Tester": {
+            "description": "Writes scripts to automate software testing.",
+            "salary_range": "$Depends on experience.",
+            "key_skills": [
+                "Selenium",
+                "Python",
+                "Java",
+                "TestNG",
+                "Jenkins",
+                "Appium"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Master the basics of Selenium and Python.",
+                "2. Build foundational projects.",
+                "3. Learn advanced frameworks and tools.",
+                "4. Contribute to open source or real-world projects.",
+                "5. Prepare for interviews and build a portfolio."
+            ],
+            "interview_questions": [
+                "What is your experience with Selenium?",
+                "How do you handle challenges in Automation Tester?",
+                "Describe a complex project you worked on.",
+                "What tools do you prefer for Python?",
+                "How do you stay updated with industry trends?"
+            ]
+        },
+        "Scrum Master": {
+            "description": "A Scrum Master specializes in Agile, Coaching, Ceremonies. Managing products and business processes.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Coaching",
+                "Ceremonies",
+                "Communication",
+                "Agile",
+                "Planning",
+                "Leadership"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Agile.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Agile?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Project Manager": {
+            "description": "A Project Manager specializes in PMP, Scheduling, Risk Management. Managing products and business processes.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "PMP",
+                "Scheduling",
+                "Communication",
+                "Risk Management",
+                "Planning",
+                "Leadership"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and PMP.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with PMP?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Business Analyst": {
+            "description": "A Business Analyst specializes in Requirements, Business Processes, Communication. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Business Processes",
+                "Statistics",
+                "Data Analysis",
+                "Communication",
+                "Requirements",
+                "SQL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Requirements.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Requirements?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "System Administrator": {
+            "description": "A System Administrator specializes in Windows, Linux, Maintenance. Managing IT infrastructure.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Maintenance",
+                "Networking",
+                "Hardware",
+                "Linux",
+                "Troubleshooting",
+                "Windows"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Networking and Windows.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Windows?",
+                "How do you handle challenges in Networking?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Network Administrator": {
+            "description": "A Network Administrator specializes in Cisco, Switching, Protocols. Managing IT infrastructure.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Protocols",
+                "Hardware",
+                "Troubleshooting",
+                "Switching",
+                "Cisco"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Networking and Cisco.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Cisco?",
+                "How do you handle challenges in Networking?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Game Developer": {
+            "description": "A Game Developer specializes in Game Loop, Physics, Optimization. Creating interactive entertainment.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "Game Loop",
+                "3D Math",
+                "Optimization",
+                "Physics",
+                "Creativity"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Programming and Game Loop.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Game Loop?",
+                "How do you handle challenges in Programming?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Unity Developer": {
+            "description": "A Unity Developer specializes in Unity, C#, Asset Store. Creating interactive entertainment.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "C#",
+                "Unity",
+                "3D Math",
+                "Asset Store",
+                "Creativity"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Programming and Unity.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Unity?",
+                "How do you handle challenges in Programming?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "SAP Consultant": {
+            "description": "Expert in SAP ERP software.",
+            "salary_range": "$Depends on experience.",
+            "key_skills": [
+                "SAP",
+                "ERP",
+                "Business Process",
+                "Implementation",
+                "ABAP"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Master the basics of SAP and ERP.",
+                "2. Build foundational projects.",
+                "3. Learn advanced frameworks and tools.",
+                "4. Contribute to open source or real-world projects.",
+                "5. Prepare for interviews and build a portfolio."
+            ],
+            "interview_questions": [
+                "What is your experience with SAP?",
+                "How do you handle challenges in SAP Consultant?",
+                "Describe a complex project you worked on.",
+                "What tools do you prefer for ERP?",
+                "How do you stay updated with industry trends?"
+            ]
+        },
+        "Salesforce Developer": {
+            "description": "Develop apps and customizations for Salesforce CRM.",
+            "salary_range": "$Depends on experience.",
+            "key_skills": [
+                "Salesforce",
+                "Apex",
+                "Visualforce",
+                "Lightning",
+                "CRM"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Master the basics of Salesforce and Apex.",
+                "2. Build foundational projects.",
+                "3. Learn advanced frameworks and tools.",
+                "4. Contribute to open source or real-world projects.",
+                "5. Prepare for interviews and build a portfolio."
+            ],
+            "interview_questions": [
+                "What is your experience with Salesforce?",
+                "How do you handle challenges in Salesforce Developer?",
+                "Describe a complex project you worked on.",
+                "What tools do you prefer for Apex?",
+                "How do you stay updated with industry trends?"
+            ]
+        },
+        "IoT Engineer": {
+            "description": "Develops Internet of Things devices and software.",
+            "salary_range": "$Depends on experience.",
+            "key_skills": [
+                "C/C++",
+                "Embedded Systems",
+                "Sensors",
+                "Arduino",
+                "Raspberry Pi",
+                "Networking"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Master the basics of C/C++ and Embedded Systems.",
+                "2. Build foundational projects.",
+                "3. Learn advanced frameworks and tools.",
+                "4. Contribute to open source or real-world projects.",
+                "5. Prepare for interviews and build a portfolio."
+            ],
+            "interview_questions": [
+                "What is your experience with C/C++?",
+                "How do you handle challenges in IoT Engineer?",
+                "Describe a complex project you worked on.",
+                "What tools do you prefer for Embedded Systems?",
+                "How do you stay updated with industry trends?"
+            ]
+        },
+        "Robotics Engineer": {
+            "description": "A Robotics Engineer specializes in ROS, Kinematics, Controls. Working with physical tech systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "Systems Integration",
+                "Hardware",
+                "Controls",
+                "ROS",
+                "Kinematics"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Hardware and ROS.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with ROS?",
+                "How do you handle challenges in Hardware?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Prompt Engineer": {
+            "description": "A Prompt Engineer specializes in LLMs, Prompt Design, Creative Writing. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "Prompt Design",
+                "LLMs",
+                "Creative Writing",
+                "Python",
+                "Algorithms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and LLMs.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with LLMs?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Generative AI Engineer": {
+            "description": "A Generative AI Engineer specializes in GANs, Diffusion Models, Generative AI. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "GANs",
+                "Mathematics",
+                "Generative AI",
+                "Diffusion Models",
+                "Python",
+                "Algorithms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and GANs.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with GANs?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Speech/Voice AI Engineer": {
+            "description": "A Speech/Voice AI Engineer specializes in Speech Processing, Audio Analysis, Signal Processing. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "Speech Processing",
+                "Python",
+                "Algorithms",
+                "Audio Analysis",
+                "Signal Processing"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and Speech Processing.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Speech Processing?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Reinforcement Learning Engineer": {
+            "description": "A Reinforcement Learning Engineer specializes in Reinforcement Learning, Control Theory, Agents. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "Control Theory",
+                "Agents",
+                "Python",
+                "Algorithms",
+                "Reinforcement Learning"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and Reinforcement Learning.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Reinforcement Learning?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Applied Scientist": {
+            "description": "A Applied Scientist specializes in Research, Experimentation, Prototyping. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Prototyping",
+                "Experimentation",
+                "Mathematics",
+                "Python",
+                "Algorithms",
+                "Research"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and Research.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Research?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Research Scientist (AI)": {
+            "description": "A Research Scientist (AI) specializes in Academic Research, Publications, Innovation. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "Academic Research",
+                "Publications",
+                "Python",
+                "Algorithms",
+                "Innovation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and Academic Research.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Academic Research?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Algorithm Engineer": {
+            "description": "A Algorithm Engineer specializes in Data Structures, Optimization, Complexity Analysis. Focuses on Artificial Intelligence and ML systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Mathematics",
+                "Optimization",
+                "Complexity Analysis",
+                "Python",
+                "Data Structures",
+                "Algorithms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Python and Data Structures.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Data Structures?",
+                "How do you handle challenges in Python?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Data Analyst": {
+            "description": "A Data Analyst specializes in Excel, Visualization, Reporting. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Reporting",
+                "Statistics",
+                "Visualization",
+                "Data Analysis",
+                "Excel",
+                "SQL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Excel.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Excel?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Big Data Engineer": {
+            "description": "A Big Data Engineer specializes in Hadoop, Spark, Scala, NoSQL. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Spark",
+                "NoSQL",
+                "Scala",
+                "Statistics",
+                "Data Analysis",
+                "SQL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Hadoop.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Hadoop?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Data Architect": {
+            "description": "A Data Architect specializes in Data Modeling, Database Design, Architecture. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Database Design",
+                "Statistics",
+                "Data Analysis",
+                "SQL",
+                "Data Modeling",
+                "Architecture"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Data Modeling.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Data Modeling?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Data Modeler": {
+            "description": "A Data Modeler specializes in ER Diagrams, Schema Design, Normalization. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Statistics",
+                "Schema Design",
+                "Data Analysis",
+                "Normalization",
+                "ER Diagrams",
+                "SQL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and ER Diagrams.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with ER Diagrams?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Statistician": {
+            "description": "A Statistician specializes in R, Probability, Hypothesis Testing. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Statistics",
+                "Data Analysis",
+                "Probability",
+                "R",
+                "SQL",
+                "Hypothesis Testing"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and R.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with R?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Quantitative Analyst": {
+            "description": "A Quantitative Analyst specializes in Financial Modeling, Math, C++. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Financial Modeling",
+                "Statistics",
+                "Data Analysis",
+                "C++",
+                "Math",
+                "SQL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Financial Modeling.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Financial Modeling?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "ETL Developer": {
+            "description": "A ETL Developer specializes in Informatica, Talend, Data Integration. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Data Integration",
+                "Statistics",
+                "Data Analysis",
+                "Informatica",
+                "Talend",
+                "SQL"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Informatica.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Informatica?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Database Administrator (DBA)": {
+            "description": "A Database Administrator (DBA) specializes in Database Management, Backup, Performance Tuning. Analyzing and managing data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Statistics",
+                "Data Analysis",
+                "Database Management",
+                "Performance Tuning",
+                "SQL",
+                "Backup"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of SQL and Database Management.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Database Management?",
+                "How do you handle challenges in SQL?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Front-End Developer": {
+            "description": "A Front-End Developer specializes in React, DOM, Responsive Design. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Git",
+                "DOM",
+                "JavaScript",
+                "CSS",
+                "HTML",
+                "React"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and React.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with React?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Back-End Developer": {
+            "description": "A Back-End Developer specializes in Node.js, Python, Databases, API. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Node.js",
+                "Databases",
+                "Git",
+                "JavaScript",
+                "CSS",
+                "API"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and Node.js.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Node.js?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Full-Stack Developer": {
+            "description": "A Full-Stack Developer specializes in Frontend, Backend, DevOps. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Frontend",
+                "Backend",
+                "Git",
+                "DevOps",
+                "JavaScript",
+                "CSS"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and Frontend.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Frontend?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Web Application Developer": {
+            "description": "A Web Application Developer specializes in Web Security, HTTP, Sessions. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "HTTP",
+                "Git",
+                "JavaScript",
+                "Web Security",
+                "CSS",
+                "Sessions"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and Web Security.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Web Security?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "JavaScript Developer": {
+            "description": "A JavaScript Developer specializes in ES6+, Async/Await, Frameworks. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Frameworks",
+                "Async/Await",
+                "ES6+",
+                "Git",
+                "JavaScript",
+                "CSS"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and ES6+.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with ES6+?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "UI Developer": {
+            "description": "A UI Developer specializes in Design Translation, Animations, Styling. Developing websites and web applications.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Design Translation",
+                "Git",
+                "Styling",
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of HTML and Design Translation.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Design Translation?",
+                "How do you handle challenges in HTML?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "React Native Developer": {
+            "description": "A React Native Developer specializes in React Native, JavaScript, Mobile UI. Building applications for mobile devices.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "React Native",
+                "API Integration",
+                "Git",
+                "JavaScript",
+                "Mobile UI",
+                "Mobile Architecture"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Git and React Native.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with React Native?",
+                "How do you handle challenges in Git?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Mobile App Engineer": {
+            "description": "A Mobile App Engineer specializes in Performance, Offline Storage, Publishing. Building applications for mobile devices.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "API Integration",
+                "Git",
+                "Offline Storage",
+                "Publishing",
+                "Performance",
+                "Mobile Architecture"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Git and Performance.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Performance?",
+                "How do you handle challenges in Git?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Software Engineer": {
+            "description": "A Software Engineer specializes in Algorithms, Data Structures, System Design. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Git",
+                "Problem Solving",
+                "System Design",
+                "Data Structures",
+                "Algorithms",
+                "Software Design"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and Algorithms.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Algorithms?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Software Developer": {
+            "description": "A Software Developer specializes in Coding, Testing, Debugging. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Git",
+                "Problem Solving",
+                "Debugging",
+                "Coding",
+                "Software Design",
+                "Testing"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and Coding.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Coding?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Application Developer": {
+            "description": "A Application Developer specializes in App Lifecycle, Requirements, Maintenance. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Maintenance",
+                "App Lifecycle",
+                "Git",
+                "Problem Solving",
+                "Requirements",
+                "Software Design"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and App Lifecycle.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with App Lifecycle?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Systems Software Engineer": {
+            "description": "A Systems Software Engineer specializes in OS Internals, Kernel, Low-level. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Low-level",
+                "Git",
+                "Problem Solving",
+                "OS Internals",
+                "Software Design",
+                "Kernel"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and OS Internals.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with OS Internals?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Platform Engineer": {
+            "description": "A Platform Engineer specializes in Infrastructure, Scalability, Internal Tools. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Internal Tools",
+                "Git",
+                "Problem Solving",
+                "Infrastructure",
+                "Software Design",
+                "Scalability"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and Infrastructure.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Infrastructure?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Embedded Systems Engineer": {
+            "description": "A Embedded Systems Engineer specializes in C, Microcontrollers, RTOS. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Git",
+                "Problem Solving",
+                "C",
+                "Software Design",
+                "RTOS",
+                "Microcontrollers"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and C.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with C?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Firmware Engineer": {
+            "description": "A Firmware Engineer specializes in Drivers, Hardware Interface, C/C++. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Drivers",
+                "Git",
+                "Problem Solving",
+                "C/C++",
+                "Software Design",
+                "Hardware Interface"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and Drivers.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Drivers?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "C/C++ Developer": {
+            "description": "A C/C++ Developer specializes in Memory Management, Pointers, STL. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Memory Management",
+                "Git",
+                "Problem Solving",
+                "Pointers",
+                "STL",
+                "Software Design"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and Memory Management.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Memory Management?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Java Developer": {
+            "description": "A Java Developer specializes in JVM, Spring Boot, OOP. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "OOP",
+                "Git",
+                "Problem Solving",
+                "JVM",
+                "Software Design",
+                "Spring Boot"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and JVM.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with JVM?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Python Developer": {
+            "description": "A Python Developer specializes in Django, Flask, Scripting. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Flask",
+                "Git",
+                "Problem Solving",
+                "Scripting",
+                "Software Design",
+                "Django"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and Django.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Django?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        ".NET Developer": {
+            "description": "A .NET Developer specializes in C#, .NET Core, Visual Studio. Core software development and engineering.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                ".NET Core",
+                "C#",
+                "Git",
+                "Problem Solving",
+                "Visual Studio",
+                "Software Design"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Software Design and C#.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with C#?",
+                "How do you handle challenges in Software Design?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Cloud Solutions Architect": {
+            "description": "A Cloud Solutions Architect specializes in Architecture, Cost Optimization, Migration. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Linux",
+                "Migration",
+                "Cost Optimization",
+                "Cloud Platforms",
+                "Architecture"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and Architecture.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Architecture?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Cloud Administrator": {
+            "description": "A Cloud Administrator specializes in User Management, Monitoring, Security. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Security",
+                "Networking",
+                "Linux",
+                "Monitoring",
+                "Cloud Platforms",
+                "User Management"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and User Management.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with User Management?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Cloud DevOps Engineer": {
+            "description": "A Cloud DevOps Engineer specializes in CI/CD, Automation, Containers. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Linux",
+                "Cloud Platforms",
+                "Containers",
+                "Automation",
+                "CI/CD"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and CI/CD.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with CI/CD?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Cloud Security Engineer": {
+            "description": "A Cloud Security Engineer specializes in IAM, Compliance, Encryption. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Compliance",
+                "Networking",
+                "Linux",
+                "IAM",
+                "Encryption",
+                "Cloud Platforms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and IAM.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with IAM?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "AWS/GCP/Azure Engineer": {
+            "description": "A AWS/GCP/Azure Engineer specializes in Specific Cloud Services, Certification. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Certification",
+                "Networking",
+                "Specific Cloud Services",
+                "Linux",
+                "Cloud Platforms"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and Specific Cloud Services.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Specific Cloud Services?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Cloud Support Engineer": {
+            "description": "A Cloud Support Engineer specializes in Troubleshooting, Customer Service, Tickets. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Tickets",
+                "Linux",
+                "Troubleshooting",
+                "Cloud Platforms",
+                "Customer Service"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and Troubleshooting.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Troubleshooting?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Infrastructure Engineer": {
+            "description": "A Infrastructure Engineer specializes in Servers, Virtualization, Networking. Cloud infrastructure and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Linux",
+                "Cloud Platforms",
+                "Servers",
+                "Virtualization"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Cloud Platforms and Servers.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Servers?",
+                "How do you handle challenges in Cloud Platforms?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Automation Engineer": {
+            "description": "A Automation Engineer specializes in Python, Bash, Ansible. Streamlining development and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Ansible",
+                "Linux",
+                "Scripting",
+                "Bash",
+                "Python",
+                "Automation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Linux and Python.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Python?",
+                "How do you handle challenges in Linux?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Release Engineer": {
+            "description": "A Release Engineer specializes in Version Control, Build Tools, Release Management. Streamlining development and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Release Management",
+                "Version Control",
+                "Linux",
+                "Scripting",
+                "Build Tools",
+                "Automation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Linux and Version Control.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Version Control?",
+                "How do you handle challenges in Linux?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "CI/CD Engineer": {
+            "description": "A CI/CD Engineer specializes in Pipelines, GitHub Actions, GitLab CI. Streamlining development and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Pipelines",
+                "GitHub Actions",
+                "Linux",
+                "GitLab CI",
+                "Scripting",
+                "Automation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Linux and Pipelines.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Pipelines?",
+                "How do you handle challenges in Linux?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Kubernetes Engineer": {
+            "description": "A Kubernetes Engineer specializes in K8s, Helm, Orchestration. Streamlining development and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Helm",
+                "Linux",
+                "Scripting",
+                "Orchestration",
+                "K8s",
+                "Automation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Linux and K8s.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with K8s?",
+                "How do you handle challenges in Linux?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Container Engineer": {
+            "description": "A Container Engineer specializes in Docker, Containerd, Microservices. Streamlining development and operations.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Docker",
+                "Microservices",
+                "Linux",
+                "Scripting",
+                "Containerd",
+                "Automation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Linux and Docker.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Docker?",
+                "How do you handle challenges in Linux?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Cybersecurity Engineer": {
+            "description": "A Cybersecurity Engineer specializes in Firewalls, IDS/IPS, SIEM. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Security Principles",
+                "Firewalls",
+                "IDS/IPS",
+                "SIEM",
+                "Risk Analysis"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and Firewalls.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Firewalls?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Information Security Analyst": {
+            "description": "A Information Security Analyst specializes in Compliance, Auditing, Policies. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Auditing",
+                "Compliance",
+                "Networking",
+                "Security Principles",
+                "Policies",
+                "Risk Analysis"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and Compliance.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Compliance?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "SOC Analyst": {
+            "description": "A SOC Analyst specializes in Monitoring, Incident Response, Logs. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Monitoring",
+                "Security Principles",
+                "Incident Response",
+                "Logs",
+                "Risk Analysis"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and Monitoring.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Monitoring?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Penetration Tester / Ethical Hacker": {
+            "description": "A Penetration Tester / Ethical Hacker specializes in Hacking Tools, Exploits, Reporting. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Reporting",
+                "Networking",
+                "Security Principles",
+                "Hacking Tools",
+                "Exploits",
+                "Risk Analysis"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and Hacking Tools.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Hacking Tools?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Network Security Engineer": {
+            "description": "A Network Security Engineer specializes in VPN, Routing, Access Control. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Access Control",
+                "Security Principles",
+                "VPN",
+                "Risk Analysis",
+                "Routing"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and VPN.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with VPN?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Application Security Engineer": {
+            "description": "A Application Security Engineer specializes in OWASP, Code Review, SAST/DAST. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Code Review",
+                "Security Principles",
+                "SAST/DAST",
+                "Risk Analysis",
+                "OWASP"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and OWASP.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with OWASP?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Incident Response Analyst": {
+            "description": "A Incident Response Analyst specializes in Forensics, Malware Analysis, Recovery. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Malware Analysis",
+                "Networking",
+                "Security Principles",
+                "Forensics",
+                "Recovery",
+                "Risk Analysis"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and Forensics.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Forensics?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Cloud Security Analyst": {
+            "description": "A Cloud Security Analyst specializes in Cloud Risks, Configuration, Audits. Protecting systems and data.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Security Principles",
+                "Configuration",
+                "Cloud Risks",
+                "Audits",
+                "Risk Analysis"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Security Principles and Cloud Risks.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Cloud Risks?",
+                "How do you handle challenges in Security Principles?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Linux Administrator": {
+            "description": "A Linux Administrator specializes in Red Hat, Shell Scripting, Kernel. Managing IT infrastructure.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Hardware",
+                "Troubleshooting",
+                "Red Hat",
+                "Shell Scripting",
+                "Kernel"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Networking and Red Hat.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Red Hat?",
+                "How do you handle challenges in Networking?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Windows Administrator": {
+            "description": "A Windows Administrator specializes in Active Directory, PowerShell, Server. Managing IT infrastructure.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Hardware",
+                "PowerShell",
+                "Troubleshooting",
+                "Server",
+                "Active Directory"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Networking and Active Directory.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Active Directory?",
+                "How do you handle challenges in Networking?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "IT Support Engineer": {
+            "description": "A IT Support Engineer specializes in Help Desk, Remote Support, Diagnostics. Managing IT infrastructure.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Networking",
+                "Hardware",
+                "Diagnostics",
+                "Troubleshooting",
+                "Remote Support",
+                "Help Desk"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Networking and Help Desk.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Help Desk?",
+                "How do you handle challenges in Networking?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "IT Helpdesk Technician": {
+            "description": "A IT Helpdesk Technician specializes in Ticket Systems, User Support, Installation. Managing IT infrastructure.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "User Support",
+                "Networking",
+                "Hardware",
+                "Troubleshooting",
+                "Ticket Systems",
+                "Installation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Networking and Ticket Systems.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Ticket Systems?",
+                "How do you handle challenges in Networking?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Hardware Engineer": {
+            "description": "A Hardware Engineer specializes in Circuit Design, PCB, Electronics. Managing IT infrastructure.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Circuit Design",
+                "Networking",
+                "Electronics",
+                "Hardware",
+                "Troubleshooting",
+                "PCB"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Networking and Circuit Design.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Circuit Design?",
+                "How do you handle challenges in Networking?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Software Test Engineer": {
+            "description": "A Software Test Engineer specializes in Regression Testing, Functional Testing. Ensuring software quality.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Attention to Detail",
+                "Documentation",
+                "Regression Testing",
+                "Functional Testing",
+                "Testing Methodologies"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Testing Methodologies and Regression Testing.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Regression Testing?",
+                "How do you handle challenges in Testing Methodologies?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Manual Tester": {
+            "description": "A Manual Tester specializes in Exploratory Testing, Usability, UI Testing. Ensuring software quality.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Usability",
+                "Attention to Detail",
+                "Documentation",
+                "Exploratory Testing",
+                "UI Testing",
+                "Testing Methodologies"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Testing Methodologies and Exploratory Testing.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Exploratory Testing?",
+                "How do you handle challenges in Testing Methodologies?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Automation Tester (Selenium, Appium)": {
+            "description": "A Automation Tester (Selenium, Appium) specializes in Selenium, Scripting, Java/Python. Ensuring software quality.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Attention to Detail",
+                "Documentation",
+                "Java/Python",
+                "Scripting",
+                "Testing Methodologies",
+                "Selenium"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Testing Methodologies and Selenium.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Selenium?",
+                "How do you handle challenges in Testing Methodologies?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Performance Tester": {
+            "description": "A Performance Tester specializes in LoadRunner, JMeter, Scalability. Ensuring software quality.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "JMeter",
+                "Attention to Detail",
+                "Documentation",
+                "LoadRunner",
+                "Testing Methodologies",
+                "Scalability"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Testing Methodologies and LoadRunner.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with LoadRunner?",
+                "How do you handle challenges in Testing Methodologies?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Quality Analyst": {
+            "description": "A Quality Analyst specializes in Process Improvement, Audits, Standards. Ensuring software quality.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Attention to Detail",
+                "Documentation",
+                "Process Improvement",
+                "Testing Methodologies",
+                "Audits",
+                "Standards"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Testing Methodologies and Process Improvement.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Process Improvement?",
+                "How do you handle challenges in Testing Methodologies?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "UI Designer": {
+            "description": "A UI Designer specializes in Figma, Visual Design, Typography. Designing user interfaces and experiences.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Figma",
+                "User Empathy",
+                "Design Tools",
+                "Creativity",
+                "Visual Design",
+                "Typography"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Design Tools and Figma.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Figma?",
+                "How do you handle challenges in Design Tools?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "UX Designer": {
+            "description": "A UX Designer specializes in Wireframing, Prototyping, User Flows. Designing user interfaces and experiences.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Prototyping",
+                "Wireframing",
+                "User Empathy",
+                "Design Tools",
+                "Creativity",
+                "User Flows"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Design Tools and Wireframing.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Wireframing?",
+                "How do you handle challenges in Design Tools?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "UX Researcher": {
+            "description": "A UX Researcher specializes in User Testing, Interviews, Data Analysis. Designing user interfaces and experiences.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "User Testing",
+                "Data Analysis",
+                "Creativity",
+                "User Empathy",
+                "Design Tools",
+                "Interviews"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Design Tools and User Testing.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with User Testing?",
+                "How do you handle challenges in Design Tools?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Product Designer": {
+            "description": "A Product Designer specializes in Product Thinking, Strategy, End-to-End Design. Designing user interfaces and experiences.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Product Thinking",
+                "Creativity",
+                "User Empathy",
+                "Design Tools",
+                "Strategy",
+                "End-to-End Design"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Design Tools and Product Thinking.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Product Thinking?",
+                "How do you handle challenges in Design Tools?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Interaction Designer": {
+            "description": "A Interaction Designer specializes in Animation, Micro-interactions, States. Designing user interfaces and experiences.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Animation",
+                "States",
+                "Creativity",
+                "User Empathy",
+                "Design Tools",
+                "Micro-interactions"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Design Tools and Animation.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Animation?",
+                "How do you handle challenges in Design Tools?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Graphic Designer": {
+            "description": "A Graphic Designer specializes in Photoshop, Illustrator, Branding. Designing user interfaces and experiences.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Illustrator",
+                "Branding",
+                "User Empathy",
+                "Design Tools",
+                "Creativity",
+                "Photoshop"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Design Tools and Photoshop.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Photoshop?",
+                "How do you handle challenges in Design Tools?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Product Owner": {
+            "description": "A Product Owner specializes in Backlog, User Stories, Scrum. Managing products and business processes.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Scrum",
+                "User Stories",
+                "Communication",
+                "Planning",
+                "Leadership",
+                "Backlog"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Backlog.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Backlog?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Program Manager": {
+            "description": "A Program Manager specializes in Strategy, Portfolio, Execution. Managing products and business processes.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Communication",
+                "Portfolio",
+                "Planning",
+                "Strategy",
+                "Leadership",
+                "Execution"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Strategy.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Strategy?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Delivery Manager": {
+            "description": "A Delivery Manager specializes in Agile Delivery, Metrics, Team Health. Managing products and business processes.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Communication",
+                "Team Health",
+                "Metrics",
+                "Planning",
+                "Leadership",
+                "Agile Delivery"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Agile Delivery.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Agile Delivery?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "IoT Developer": {
+            "description": "A IoT Developer specializes in Sensors, MQTT, Edge Computing. Working with physical tech systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "Systems Integration",
+                "Hardware",
+                "MQTT",
+                "Edge Computing",
+                "Sensors"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Hardware and Sensors.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Sensors?",
+                "How do you handle challenges in Hardware?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "IoT Embedded Engineer": {
+            "description": "A IoT Embedded Engineer specializes in C/C++, RTOS, Firmware. Working with physical tech systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "Systems Integration",
+                "Hardware",
+                "Firmware",
+                "C/C++",
+                "RTOS"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Hardware and C/C++.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with C/C++?",
+                "How do you handle challenges in Hardware?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Mechatronics Engineer": {
+            "description": "A Mechatronics Engineer specializes in Mechanics, Electronics, Computing. Working with physical tech systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "Electronics",
+                "Systems Integration",
+                "Hardware",
+                "Mechanics",
+                "Computing"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Hardware and Mechanics.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Mechanics?",
+                "How do you handle challenges in Hardware?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Hardware Design Engineer": {
+            "description": "A Hardware Design Engineer specializes in CAD, Simulation, Prototyping. Working with physical tech systems.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "Prototyping",
+                "Systems Integration",
+                "Hardware",
+                "CAD",
+                "Simulation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Hardware and CAD.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with CAD?",
+                "How do you handle challenges in Hardware?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Unreal Engine Developer": {
+            "description": "A Unreal Engine Developer specializes in Unreal, C++, Blueprints. Creating interactive entertainment.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "Blueprints",
+                "3D Math",
+                "C++",
+                "Creativity",
+                "Unreal"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Programming and Unreal.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Unreal?",
+                "How do you handle challenges in Programming?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "AR/VR Developer": {
+            "description": "A AR/VR Developer specializes in Augmented Reality, Virtual Reality, Spatial Computing. Creating interactive entertainment.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Programming",
+                "Spatial Computing",
+                "3D Math",
+                "Virtual Reality",
+                "Creativity",
+                "Augmented Reality"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Programming and Augmented Reality.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Augmented Reality?",
+                "How do you handle challenges in Programming?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Research Engineer": {
+            "description": "A Research Engineer specializes in Experimentation, Prototyping, Data Analysis. Scientific research and development.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Scientific Method",
+                "Prototyping",
+                "Experimentation",
+                "Data Analysis",
+                "Analysis",
+                "Research"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Research and Experimentation.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Experimentation?",
+                "How do you handle challenges in Research?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "R&D Engineer": {
+            "description": "A R&D Engineer specializes in Innovation, New Tech, Feasibility. Scientific research and development.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Scientific Method",
+                "Feasibility",
+                "New Tech",
+                "Analysis",
+                "Research",
+                "Innovation"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Research and Innovation.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Innovation?",
+                "How do you handle challenges in Research?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Research Associate": {
+            "description": "A Research Associate specializes in Literature Review, Data Collection, Reporting. Scientific research and development.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Scientific Method",
+                "Reporting",
+                "Literature Review",
+                "Analysis",
+                "Data Collection",
+                "Research"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Research and Literature Review.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Literature Review?",
+                "How do you handle challenges in Research?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Applied Researcher": {
+            "description": "A Applied Researcher specializes in Real-world Application, Validation, Development. Scientific research and development.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Scientific Method",
+                "Validation",
+                "Development",
+                "Analysis",
+                "Real-world Application",
+                "Research"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Research and Real-world Application.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Real-world Application?",
+                "How do you handle challenges in Research?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "ERP Consultant (SAP/Oracle)": {
+            "description": "A ERP Consultant (SAP/Oracle) specializes in SAP, Oracle, Implementation. Managing enterprise-scale software.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Implementation",
+                "Business Processes",
+                "Configuration",
+                "Enterprise Software",
+                "Oracle",
+                "SAP"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Business Processes and SAP.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with SAP?",
+                "How do you handle challenges in Business Processes?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "CRM Developer (Salesforce, Dynamics)": {
+            "description": "A CRM Developer (Salesforce, Dynamics) specializes in Salesforce, Apex, CRM Configuration. Managing enterprise-scale software.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Apex",
+                "Business Processes",
+                "Configuration",
+                "Salesforce",
+                "CRM Configuration",
+                "Enterprise Software"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Business Processes and Salesforce.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Salesforce?",
+                "How do you handle challenges in Business Processes?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "SAP ABAP Developer": {
+            "description": "A SAP ABAP Developer specializes in ABAP, SAP GUI, Enhancements. Managing enterprise-scale software.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Enhancements",
+                "SAP GUI",
+                "Business Processes",
+                "Configuration",
+                "ABAP",
+                "Enterprise Software"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Business Processes and ABAP.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with ABAP?",
+                "How do you handle challenges in Business Processes?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "SEO Specialist": {
+            "description": "A SEO Specialist specializes in SEO Tools, Keywords, Content Strategy. Driving growth through technology.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "SEO Tools",
+                "Keywords",
+                "Content Strategy",
+                "Tech Skills",
+                "Marketing",
+                "Analytics"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Marketing and SEO Tools.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with SEO Tools?",
+                "How do you handle challenges in Marketing?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Digital Marketing Analyst": {
+            "description": "A Digital Marketing Analyst specializes in Google Analytics, Ads, Conversion. Driving growth through technology.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Ads",
+                "Google Analytics",
+                "Conversion",
+                "Tech Skills",
+                "Marketing",
+                "Analytics"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Marketing and Google Analytics.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Google Analytics?",
+                "How do you handle challenges in Marketing?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Growth Engineer": {
+            "description": "A Growth Engineer specializes in A/B Testing, Funnel Optimization, Coding. Driving growth through technology.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Coding",
+                "Funnel Optimization",
+                "Tech Skills",
+                "Marketing",
+                "A/B Testing",
+                "Analytics"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Marketing and A/B Testing.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with A/B Testing?",
+                "How do you handle challenges in Marketing?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Data Marketing Analyst": {
+            "description": "A Data Marketing Analyst specializes in Segmentation, Campaign Analysis, ROI. Driving growth through technology.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Segmentation",
+                "ROI",
+                "Campaign Analysis",
+                "Tech Skills",
+                "Marketing",
+                "Analytics"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Marketing and Segmentation.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Segmentation?",
+                "How do you handle challenges in Marketing?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Technical Support Engineer": {
+            "description": "A Technical Support Engineer specializes in Tickets, Debugging, Docs. Providing technical support and solutions.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Tickets",
+                "Product Knowledge",
+                "Troubleshooting",
+                "Debugging",
+                "Communication",
+                "Docs"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Tickets.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Tickets?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Customer Success Engineer": {
+            "description": "A Customer Success Engineer specializes in Onboarding, Retention, Training. Providing technical support and solutions.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Retention",
+                "Product Knowledge",
+                "Troubleshooting",
+                "Communication",
+                "Training",
+                "Onboarding"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Onboarding.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Onboarding?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Solutions Engineer": {
+            "description": "A Solutions Engineer specializes in Sales Support, Demos, POCs. Providing technical support and solutions.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Product Knowledge",
+                "Troubleshooting",
+                "Communication",
+                "POCs",
+                "Sales Support",
+                "Demos"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Sales Support.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Sales Support?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Solutions Architect": {
+            "description": "A Solutions Architect specializes in System Design, Integration, Requirements. Providing technical support and solutions.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Product Knowledge",
+                "Integration",
+                "Troubleshooting",
+                "Communication",
+                "System Design",
+                "Requirements"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and System Design.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with System Design?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        },
+        "Technical Consultant": {
+            "description": "A Technical Consultant specializes in Advisory, Implementation, Best Practices. Providing technical support and solutions.",
+            "salary_range": "$Entry to Expert levels vary.",
+            "key_skills": [
+                "Implementation",
+                "Product Knowledge",
+                "Troubleshooting",
+                "Communication",
+                "Best Practices",
+                "Advisory"
+            ],
+            "soft_skills": [
+                "Communication",
+                "Problem Solving",
+                "Adaptability"
+            ],
+            "roadmap": [
+                "1. Learn the fundamentals of Communication and Advisory.",
+                "2. Build projects showcasing these skills.",
+                "3. Gain experience with tools like {specific_skills[1] if len(specific_skills)>1 else 'industry standard tools'}.",
+                "4. Prepare for technical interviews."
+            ],
+            "interview_questions": [
+                "What is your experience with Advisory?",
+                "How do you handle challenges in Communication?",
+                "Describe a complex project you worked on."
+            ]
+        }
+    },
+    "general_advice": {
+        "resume": [
+            "Keep it concise: 1-2 pages maximum.",
+            "Use bullet points for readability.",
+            "Quantify your impact: 'Increased sales by 20%' is better than 'Worked in sales'.",
+            "Tailor your resume for each job application by using keywords from the job description.",
+            "Proofread! Typos look unprofessional."
+        ],
+        "interview_prep": [
+            "Research the company thoroughly before the interview.",
+            "Practice the STAR method (Situation, Task, Action, Result) for behavioral questions.",
+            "Prepare a list of questions to ask the interviewer.",
+            "Review your own resume and be ready to explain every point.",
+            "Conduct a mock interview with a friend or tool."
+        ],
+        "negotiation": [
+            "Do your research on market rates for the role and location.",
+            "Don't reveal your current salary or number first if possible.",
+            "Focus on the value you bring to the company.",
+            "Remember that benefits, equity, and vacation time are also negotiable.",
+            "Be polite but firm."
+        ],
+        "soft_skills": [
+            "Communication is key: practicing active listening.",
+            "Showcase your ability to work in a team.",
+            "Demonstrate adaptability and willingness to learn.",
+            "Emotional intelligence is highly valued in leadership.",
+            "Time management and prioritization are essential."
+        ]
+    },
+    "bot_personality": {
+        "greetings": [
+            "Hello! I'm your Offline Career Coach. I can help with **Job Roles**, **Interview Questions**, and **Learning Paths**. How can I assist?",
+            "Hi there! Ready to level up your career? Ask me about any tech role or interview tips!",
+            "Greetings! I have a database full of career wisdom. Which job role are you interested in today?"
+        ],
+        "fallback": [
+            "I'm not sure about that specific topic. I can tell you about **Full Stack**, **Data Science**, **DevOps**, and more. Try asking about a specific role!",
+            "I didn't quite catch that. Try asking 'Tell me about Data Scientist' or 'Interview questions for DevOps'.",
+            "My offline database doesn't have that info yet. Would you like to know about **Resume Tips** or **Interview Prep** instead?"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "Programming Options": [
+    "Python", "JavaScript", "Java", "C++", "C#", "Ruby", "Swift", "Go", "Rust", "PHP", "TypeScript", "Kotlin", "Scala", "R", "MATLAB", "Perl", "Objective-C", "Dart", "Shell Scripting", "Bash", "PowerShell"
+  ],
+  "Web Frameworks": [
+    "React", "Angular", "Vue.js", "Django", "Flask", "Spring Boot", "ASP.NET", "Express.js", "Next.js", "Ruby on Rails", "Laravel", "Svelte", "jQuery", "Bootstrap", "Tailwind CSS"
+  ],
+  "Machine Learning & AI": [
+    "TensorFlow", "PyTorch", "Scikit-learn", "Keras", "Pandas", "NumPy", "Matplotlib", "Seaborn", "OpenCV", "NLTK", "Spacy", "Hugging Face", "LLMs", "Generative AI", "Computer Vision", "NLP", "Deep Learning", "Reinforcement Learning"
+  ],
+  "Data Science & Analytics": [
+    "SQL", "NoSQL", "Tableau", "Power BI", "Excel", "Spark", "Hadoop", "Kakfa", "Airflow", "Data Warehousing", "ETL", "BigQuery", "Snowflake", "Databricks", "Statistics", "A/B Testing"
+  ],
+  "Cloud & DevOps": [
+    "AWS", "Azure", "Google Cloud Platform", "GCP", "Docker", "Kubernetes", "Jenkins", "Git", "GitHub", "GitLab", "CI/CD", "Terraform", "Ansible", "Linux", "Unix", "Nginx", "Apache"
+  ],
+  "Databases": [
+    "PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "Cassandra", "DynamoDB", "Oracle", "SQL Server", "SQLite", "Firebase"
+  ],
+  "Mobile Development": [
+    "Android", "iOS", "React Native", "Flutter", "Xamarin", "Ionic"
+  ],
+  "Soft Skills": [
+    "Communication", "Leadership", "Teamwork", "Problem Solving", "Critical Thinking", "Project Management", "Agile", "Scrum", "Time Management", "Adaptability", "Creativity"
+  ]
+}

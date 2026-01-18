@@ -1,0 +1,1966 @@
+{
+    "Data Scientist": {
+        "required_skills": [
+            "Python",
+            "Statistics",
+            "Machine Learning",
+            "SQL",
+            "Data Visualization",
+            "Pandas"
+        ],
+        "weights": {
+            "Statistics": 3,
+            "Machine Learning": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Full Stack Developer": {
+        "required_skills": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "HTML",
+            "CSS",
+            "SQL",
+            "Git",
+            "REST APIs"
+        ],
+        "weights": {
+            "JavaScript": 3,
+            "React": 3,
+            "Node.js": 2,
+            "SQL": 2
+        },
+        "description": "Build and maintain both front-end and back-end components of web applications."
+    },
+    "Machine Learning Engineer": {
+        "required_skills": [
+            "Python",
+            "Scikit-learn",
+            "Modeling",
+            "Deployment",
+            "SQL",
+            "Statistics"
+        ],
+        "weights": {
+            "Scikit-learn": 3,
+            "Modeling": 3
+        },
+        "description": "Role created from user request."
+    },
+    "DevOps Engineer": {
+        "required_skills": [
+            "CI/CD",
+            "Docker",
+            "Kubernetes",
+            "Linux",
+            "Jenkins",
+            "Terraform"
+        ],
+        "weights": {
+            "CI/CD": 3,
+            "Docker": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Frontend Developer": {
+        "required_skills": [
+            "JavaScript",
+            "React",
+            "Vue.js",
+            "HTML",
+            "CSS",
+            "TypeScript",
+            "Responsive Design"
+        ],
+        "weights": {
+            "JavaScript": 3,
+            "React": 3,
+            "CSS": 2,
+            "HTML": 2
+        },
+        "description": "Implement visual elements that users see and interact with in a web application."
+    },
+    "Backend Developer": {
+        "required_skills": [
+            "Python",
+            "Java",
+            "Node.js",
+            "SQL",
+            "NoSQL",
+            "API",
+            "Microservices"
+        ],
+        "weights": {
+            "Python": 2,
+            "Java": 2,
+            "SQL": 2,
+            "API": 3
+        },
+        "description": "Responsible for server-side web application logic and integration."
+    },
+    "Data Analyst": {
+        "required_skills": [
+            "SQL",
+            "Excel",
+            "Data Visualization",
+            "Tableau",
+            "Power BI",
+            "Statistics"
+        ],
+        "weights": {
+            "SQL": 3,
+            "Tableau": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Mobile Developer": {
+        "required_skills": [
+            "Swift",
+            "Kotlin",
+            "React Native",
+            "Flutter",
+            "iOS",
+            "Android",
+            "Git",
+            "Firebase"
+        ],
+        "weights": {
+            "Swift": 3,
+            "Kotlin": 3,
+            "React Native": 3,
+            "Flutter": 3
+        },
+        "description": "Develop applications for mobile devices on iOS and Android platforms."
+    },
+    "UI/UX Designer": {
+        "required_skills": [
+            "Figma",
+            "Adobe XD",
+            "Sketch",
+            "Prototyping",
+            "Wireframing",
+            "User Research",
+            "HTML",
+            "CSS"
+        ],
+        "weights": {
+            "Figma": 3,
+            "Prototyping": 2,
+            "User Research": 3,
+            "Wireframing": 2
+        },
+        "description": "Design user interfaces and experiences for web and mobile applications."
+    },
+    "Cybersecurity Analyst": {
+        "required_skills": [
+            "Network Security",
+            "Linux",
+            "Python",
+            "Cryptography",
+            "SIEM",
+            "Penetration Testing",
+            "Firewalls"
+        ],
+        "weights": {
+            "Network Security": 3,
+            "Penetration Testing": 3,
+            "Linux": 2,
+            "SIEM": 2
+        },
+        "description": "Protect an organization's computer networks and systems from cyber threats."
+    },
+    "Product Manager": {
+        "required_skills": [
+            "Product Management",
+            "Roadmap",
+            "Strategy",
+            "Agile",
+            "User Stories",
+            "Stakeholder Mgmt"
+        ],
+        "weights": {
+            "Product Management": 3
+        },
+        "description": "Role created from user request."
+    },
+    "AI Engineer": {
+        "required_skills": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Machine Learning",
+            "Deep Learning",
+            "NLP"
+        ],
+        "weights": {
+            "Python": 2,
+            "TensorFlow": 3,
+            "PyTorch": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Deep Learning Engineer": {
+        "required_skills": [
+            "Python",
+            "Neural Networks",
+            "CNN",
+            "RNN",
+            "Keras",
+            "TensorFlow"
+        ],
+        "weights": {
+            "Neural Networks": 3,
+            "CNN": 2
+        },
+        "description": "Role created from user request."
+    },
+    "NLP Engineer": {
+        "required_skills": [
+            "Python",
+            "NLTK",
+            "Spacy",
+            "Transformers",
+            "BERT",
+            "Linguistics"
+        ],
+        "weights": {
+            "Transformers": 3,
+            "NLP": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Computer Vision Engineer": {
+        "required_skills": [
+            "Python",
+            "OpenCV",
+            "Image Processing",
+            "Deep Learning",
+            "CNN",
+            "YOLO"
+        ],
+        "weights": {
+            "OpenCV": 3,
+            "Image Processing": 3
+        },
+        "description": "Role created from user request."
+    },
+    "MLOps Engineer": {
+        "required_skills": [
+            "Python",
+            "Docker",
+            "Kubernetes",
+            "MLflow",
+            "CI/CD",
+            "Model Monitoring"
+        ],
+        "weights": {
+            "MLOps": 3,
+            "Kubernetes": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Data Engineer": {
+        "required_skills": [
+            "Python",
+            "SQL",
+            "Spark",
+            "Hadoop",
+            "ETL",
+            "AWS"
+        ],
+        "weights": {
+            "Spark": 3,
+            "ETL": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Business Intelligence Analyst": {
+        "required_skills": [
+            "SQL",
+            "Power BI",
+            "Tableau",
+            "Data Warehousing",
+            "ETL",
+            "Reporting"
+        ],
+        "weights": {
+            "Power BI": 3,
+            "Reporting": 2
+        },
+        "description": "Role created from user request."
+    },
+    "React Developer": {
+        "required_skills": [
+            "React",
+            "JavaScript",
+            "Redux",
+            "Hooks",
+            "HTML",
+            "CSS"
+        ],
+        "weights": {
+            "React": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Angular Developer": {
+        "required_skills": [
+            "Angular",
+            "TypeScript",
+            "RxJS",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "weights": {
+            "Angular": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Vue Developer": {
+        "required_skills": [
+            "Vue.js",
+            "JavaScript",
+            "Vuex",
+            "HTML",
+            "CSS",
+            "Composition API"
+        ],
+        "weights": {
+            "Vue.js": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Android Developer": {
+        "required_skills": [
+            "Kotlin",
+            "Java",
+            "Android Studio",
+            "XML",
+            "Jetpack Compose",
+            "Git"
+        ],
+        "weights": {
+            "Kotlin": 3,
+            "Android Studio": 3
+        },
+        "description": "Role created from user request."
+    },
+    "iOS Developer": {
+        "required_skills": [
+            "Swift",
+            "iOS",
+            "Xcode",
+            "UIKit",
+            "SwiftUI",
+            "Git"
+        ],
+        "weights": {
+            "Swift": 3,
+            "iOS": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Flutter Developer": {
+        "required_skills": [
+            "Flutter",
+            "Dart",
+            "Mobile App Development",
+            "Widgets",
+            "State Management",
+            "Git"
+        ],
+        "weights": {
+            "Flutter": 3,
+            "Dart": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Cloud Engineer": {
+        "required_skills": [
+            "AWS",
+            "Azure",
+            "Linux",
+            "Terraform",
+            "Python",
+            "Networking"
+        ],
+        "weights": {
+            "AWS": 3,
+            "Cloud": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Site Reliability Engineer (SRE)": {
+        "required_skills": [
+            "Linux",
+            "Python/Go",
+            "Automation",
+            "Monitoring",
+            "Incident Response",
+            "SLO"
+        ],
+        "weights": {
+            "SRE": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Penetration Tester": {
+        "required_skills": [
+            "Ethical Hacking",
+            "Python",
+            "Linux",
+            "Metasploit",
+            "Burp Suite",
+            "Networking"
+        ],
+        "weights": {
+            "Hacking": 3,
+            "Burp Suite": 2,
+            "Linux": 2
+        },
+        "description": "Simulate cyberattacks to find security vulnerabilities."
+    },
+    "Security Architect": {
+        "required_skills": [
+            "Security Architecture",
+            "Design",
+            "Threat Modeling",
+            "Compliance",
+            "Cloud Security",
+            "Encryption"
+        ],
+        "weights": {
+            "Security Architecture": 3
+        },
+        "description": "Role created from user request."
+    },
+    "QA Engineer": {
+        "required_skills": [
+            "QA",
+            "Testing",
+            "Bug Tracking",
+            "Jira",
+            "Test Cases",
+            "Agile"
+        ],
+        "weights": {
+            "QA": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Automation Tester": {
+        "required_skills": [
+            "Selenium",
+            "Python",
+            "Java",
+            "TestNG",
+            "Jenkins",
+            "Appium"
+        ],
+        "weights": {
+            "Selenium": 3,
+            "Automation": 3,
+            "Python": 2
+        },
+        "description": "Writes scripts to automate software testing."
+    },
+    "Scrum Master": {
+        "required_skills": [
+            "Scrum",
+            "Agile",
+            "Coaching",
+            "Kanban",
+            "Facilitation",
+            "Jira"
+        ],
+        "weights": {
+            "Scrum": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Project Manager": {
+        "required_skills": [
+            "Project Management",
+            "PMP",
+            "Scheduling",
+            "Risk Management",
+            "Budgeting",
+            "Leadership"
+        ],
+        "weights": {
+            "Project Management": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Business Analyst": {
+        "required_skills": [
+            "Business Analysis",
+            "Requirements",
+            "Documentation",
+            "SQL",
+            "Communication",
+            "Process"
+        ],
+        "weights": {
+            "Business Analysis": 3
+        },
+        "description": "Role created from user request."
+    },
+    "System Administrator": {
+        "required_skills": [
+            "Linux",
+            "Windows Server",
+            "Active Directory",
+            "Scripting",
+            "Virtualization",
+            "Backup"
+        ],
+        "weights": {
+            "Linux": 2,
+            "Windows": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Network Administrator": {
+        "required_skills": [
+            "Networking",
+            "Cisco",
+            "Routing",
+            "Switching",
+            "TCP/IP",
+            "Troubleshooting"
+        ],
+        "weights": {
+            "Networking": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Game Developer": {
+        "required_skills": [
+            "Game Development",
+            "C#",
+            "C++",
+            "Unity/Unreal",
+            "3D Math",
+            "Physics"
+        ],
+        "weights": {
+            "Game Development": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Unity Developer": {
+        "required_skills": [
+            "Unity",
+            "C#",
+            "Game Development",
+            "3D",
+            "Physics",
+            "Scripting"
+        ],
+        "weights": {
+            "Unity": 3
+        },
+        "description": "Role created from user request."
+    },
+    "SAP Consultant": {
+        "required_skills": [
+            "SAP",
+            "ERP",
+            "Business Process",
+            "Implementation",
+            "ABAP"
+        ],
+        "weights": {
+            "SAP": 3,
+            "ERP": 2
+        },
+        "description": "Expert in SAP ERP software."
+    },
+    "Salesforce Developer": {
+        "required_skills": [
+            "Salesforce",
+            "Apex",
+            "Visualforce",
+            "Lightning",
+            "CRM"
+        ],
+        "weights": {
+            "Salesforce": 3,
+            "Apex": 3
+        },
+        "description": "Develop apps and customizations for Salesforce CRM."
+    },
+    "IoT Engineer": {
+        "required_skills": [
+            "C/C++",
+            "Embedded Systems",
+            "Sensors",
+            "Arduino",
+            "Raspberry Pi",
+            "Networking"
+        ],
+        "weights": {
+            "Embedded": 3,
+            "IoT": 3
+        },
+        "description": "Develops Internet of Things devices and software."
+    },
+    "Robotics Engineer": {
+        "required_skills": [
+            "Robotics",
+            "ROS",
+            "Python",
+            "C++",
+            "Control Systems",
+            "Kinematics"
+        ],
+        "weights": {
+            "Robotics": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Prompt Engineer": {
+        "required_skills": [
+            "LLMs",
+            "Prompt Engineering",
+            "Python",
+            "Creative Writing",
+            "NLP",
+            "AI Ethics"
+        ],
+        "weights": {
+            "Prompt Engineering": 3,
+            "LLMs": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Generative AI Engineer": {
+        "required_skills": [
+            "Python",
+            "Generative AI",
+            "GANs",
+            "Diffusion Models",
+            "Transformers",
+            "PyTorch"
+        ],
+        "weights": {
+            "Generative AI": 3,
+            "Diffusion Models": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Speech/Voice AI Engineer": {
+        "required_skills": [
+            "Python",
+            "Signal Processing",
+            "ASR",
+            "TTS",
+            "Audio Processing",
+            "Deep Learning"
+        ],
+        "weights": {
+            "Signal Processing": 3,
+            "ASR": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Reinforcement Learning Engineer": {
+        "required_skills": [
+            "Python",
+            "Reinforcement Learning",
+            "OpenAI Gym",
+            "PyTorch",
+            "Algorithms",
+            "Mathematics"
+        ],
+        "weights": {
+            "Reinforcement Learning": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Applied Scientist": {
+        "required_skills": [
+            "Python",
+            "Machine Learning",
+            "Statistics",
+            "Research",
+            "Experimentation",
+            "Data Analysis"
+        ],
+        "weights": {
+            "Research": 3,
+            "Experimentation": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Research Scientist (AI)": {
+        "required_skills": [
+            "Python",
+            "Research",
+            "Publications",
+            "Deep Learning",
+            "Mathematics",
+            "Algorithms"
+        ],
+        "weights": {
+            "Research": 3,
+            "Publications": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Algorithm Engineer": {
+        "required_skills": [
+            "C++",
+            "Python",
+            "Data Structures",
+            "Algorithms",
+            "Optimization",
+            "Mathematics"
+        ],
+        "weights": {
+            "Algorithms": 3,
+            "Optimization": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Big Data Engineer": {
+        "required_skills": [
+            "Spark",
+            "Hadoop",
+            "Kafka",
+            "Scala",
+            "NoSQL",
+            "Cloud"
+        ],
+        "weights": {
+            "Big Data": 3,
+            "Kafka": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Data Architect": {
+        "required_skills": [
+            "Data Modeling",
+            "Database Design",
+            "SQL",
+            "NoSQL",
+            "Cloud Architecture",
+            "Governance"
+        ],
+        "weights": {
+            "Data Modeling": 3,
+            "Database Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Data Modeler": {
+        "required_skills": [
+            "Data Modeling",
+            "ER Diagrams",
+            "SQL",
+            "Database Design",
+            "Normalization",
+            "Dimensional Modeling"
+        ],
+        "weights": {
+            "Data Modeling": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Statistician": {
+        "required_skills": [
+            "Statistics",
+            "R",
+            "SAS",
+            "Mathematics",
+            "Data Analysis",
+            "Hypothesis Testing"
+        ],
+        "weights": {
+            "Statistics": 3,
+            "R": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Quantitative Analyst": {
+        "required_skills": [
+            "Mathematics",
+            "Python",
+            "C++",
+            "Financial Modeling",
+            "Statistics",
+            "Algorithms"
+        ],
+        "weights": {
+            "Mathematics": 3,
+            "Financial Modeling": 3
+        },
+        "description": "Role created from user request."
+    },
+    "ETL Developer": {
+        "required_skills": [
+            "ETL",
+            "SQL",
+            "Informatica",
+            "Talend",
+            "Data Warehousing",
+            "SSIS"
+        ],
+        "weights": {
+            "ETL": 3,
+            "SQL": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Database Administrator (DBA)": {
+        "required_skills": [
+            "SQL",
+            "Database Management",
+            "Backup/Recovery",
+            "Performance Tuning",
+            "Oracle",
+            "PostgreSQL"
+        ],
+        "weights": {
+            "Database Management": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Front-End Developer": {
+        "required_skills": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "React",
+            "Unknown Framework",
+            "Responsive Design"
+        ],
+        "weights": {
+            "JavaScript": 3,
+            "React": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Back-End Developer": {
+        "required_skills": [
+            "Python",
+            "Java",
+            "Node.js",
+            "SQL",
+            "API",
+            "Server"
+        ],
+        "weights": {
+            "API": 3,
+            "SQL": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Full-Stack Developer": {
+        "required_skills": [
+            "JavaScript",
+            "Python/Node",
+            "React",
+            "SQL",
+            "HTML/CSS",
+            "Git"
+        ],
+        "weights": {
+            "JavaScript": 2,
+            "React": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Web Application Developer": {
+        "required_skills": [
+            "Web Development",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Backend",
+            "Database"
+        ],
+        "weights": {
+            "Web Development": 3
+        },
+        "description": "Role created from user request."
+    },
+    "JavaScript Developer": {
+        "required_skills": [
+            "JavaScript",
+            "ES6+",
+            "React",
+            "Node.js",
+            "HTML",
+            "CSS"
+        ],
+        "weights": {
+            "JavaScript": 3
+        },
+        "description": "Role created from user request."
+    },
+    "UI Developer": {
+        "required_skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI Design",
+            "Responsive Design",
+            "Figma"
+        ],
+        "weights": {
+            "UI Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "React Native Developer": {
+        "required_skills": [
+            "React Native",
+            "JavaScript",
+            "Mobile App Development",
+            "Redux",
+            "Git",
+            "API"
+        ],
+        "weights": {
+            "React Native": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Mobile App Engineer": {
+        "required_skills": [
+            "Mobile Development",
+            "iOS",
+            "Android",
+            "API Integration",
+            "Git",
+            "UI/UX"
+        ],
+        "weights": {
+            "Mobile Development": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Software Engineer": {
+        "required_skills": [
+            "Programming",
+            "Data Structures",
+            "Algorithms",
+            "System Design",
+            "Git",
+            "Debugging"
+        ],
+        "weights": {
+            "Programming": 3,
+            "System Design": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Software Developer": {
+        "required_skills": [
+            "Coding",
+            "Testing",
+            "Debugging",
+            "Agile",
+            "Git",
+            "Problem Solving"
+        ],
+        "weights": {
+            "Coding": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Application Developer": {
+        "required_skills": [
+            "App Development",
+            "Programming",
+            "Database",
+            "API",
+            "UI",
+            "Logic"
+        ],
+        "weights": {
+            "App Development": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Systems Software Engineer": {
+        "required_skills": [
+            "C/C++",
+            "OS Internals",
+            "Linux",
+            "Kernel",
+            "Multithreading",
+            "Performance"
+        ],
+        "weights": {
+            "C/C++": 3,
+            "OS Internals": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Platform Engineer": {
+        "required_skills": [
+            "Kubernetes",
+            "Cloud",
+            "Infrastructure",
+            "Go",
+            "Python",
+            "Linux"
+        ],
+        "weights": {
+            "Platform": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Embedded Systems Engineer": {
+        "required_skills": [
+            "C",
+            "C++",
+            "Microcontrollers",
+            "RTOS",
+            "Hardware",
+            "Firmware"
+        ],
+        "weights": {
+            "Embedded": 3,
+            "C": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Firmware Engineer": {
+        "required_skills": [
+            "C",
+            "Assembly",
+            "Microcontrollers",
+            "Hardware",
+            "Debugging",
+            "Drivers"
+        ],
+        "weights": {
+            "Firmware": 3
+        },
+        "description": "Role created from user request."
+    },
+    "C/C++ Developer": {
+        "required_skills": [
+            "C++",
+            "C",
+            "STL",
+            "Memory Management",
+            "Algorithms",
+            "Linux"
+        ],
+        "weights": {
+            "C++": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Java Developer": {
+        "required_skills": [
+            "Java",
+            "Spring Boot",
+            "Hibernate",
+            "SQL",
+            "API",
+            "Microservices"
+        ],
+        "weights": {
+            "Java": 3,
+            "Spring Boot": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Python Developer": {
+        "required_skills": [
+            "Python",
+            "Django",
+            "Flask",
+            "SQL",
+            "API",
+            "Scripting"
+        ],
+        "weights": {
+            "Python": 3
+        },
+        "description": "Role created from user request."
+    },
+    ".NET Developer": {
+        "required_skills": [
+            "C#",
+            ".NET Core",
+            "ASP.NET",
+            "SQL Server",
+            "MVC",
+            "API"
+        ],
+        "weights": {
+            ".NET": 3,
+            "C#": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Cloud Solutions Architect": {
+        "required_skills": [
+            "Cloud Architecture",
+            "AWS",
+            "Azure",
+            "Design",
+            "Security",
+            "Migration"
+        ],
+        "weights": {
+            "Cloud Architecture": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Cloud Administrator": {
+        "required_skills": [
+            "Cloud Management",
+            "Monitoring",
+            "Linux",
+            "Security",
+            "Scripting",
+            "Backup"
+        ],
+        "weights": {
+            "Cloud Management": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Cloud DevOps Engineer": {
+        "required_skills": [
+            "DevOps",
+            "CI/CD",
+            "Kubernetes",
+            "Terraform",
+            "Cloud",
+            "Jenkins"
+        ],
+        "weights": {
+            "DevOps": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Cloud Security Engineer": {
+        "required_skills": [
+            "Cloud Security",
+            "IAM",
+            "Compliance",
+            "Network Security",
+            "Encryption",
+            "Python"
+        ],
+        "weights": {
+            "Cloud Security": 3
+        },
+        "description": "Role created from user request."
+    },
+    "AWS/GCP/Azure Engineer": {
+        "required_skills": [
+            "AWS",
+            "GCP",
+            "Azure",
+            "Cloud Services",
+            "Infrastructure",
+            "Deployment"
+        ],
+        "weights": {
+            "AWS": 2,
+            "Azure": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Cloud Support Engineer": {
+        "required_skills": [
+            "Troubleshooting",
+            "Cloud",
+            "Networking",
+            "Linux",
+            "Customer Service",
+            "Tickets"
+        ],
+        "weights": {
+            "Troubleshooting": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Infrastructure Engineer": {
+        "required_skills": [
+            "Infrastructure",
+            "Networking",
+            "Servers",
+            "Virtualization",
+            "Cloud",
+            "Automation"
+        ],
+        "weights": {
+            "Infrastructure": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Automation Engineer": {
+        "required_skills": [
+            "Automation",
+            "Scripting",
+            "Python",
+            "Ansible",
+            "Jenkins",
+            "Testing"
+        ],
+        "weights": {
+            "Automation": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Release Engineer": {
+        "required_skills": [
+            "Release Management",
+            "CI/CD",
+            "Git",
+            "Versioning",
+            "Build Tools",
+            "Scripting"
+        ],
+        "weights": {
+            "Release Management": 3
+        },
+        "description": "Role created from user request."
+    },
+    "CI/CD Engineer": {
+        "required_skills": [
+            "CI/CD",
+            "Jenkins",
+            "GitLab CI",
+            "Pipeline",
+            "Automation",
+            "Docker"
+        ],
+        "weights": {
+            "CI/CD": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Kubernetes Engineer": {
+        "required_skills": [
+            "Kubernetes",
+            "Docker",
+            "Container Orchestration",
+            "Helm",
+            "Cloud",
+            "Networking"
+        ],
+        "weights": {
+            "Kubernetes": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Container Engineer": {
+        "required_skills": [
+            "Docker",
+            "Containers",
+            "Kubernetes",
+            "Linux",
+            "Microservices",
+            "Security"
+        ],
+        "weights": {
+            "Docker": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Cybersecurity Engineer": {
+        "required_skills": [
+            "Security",
+            "Network Security",
+            "Firewalls",
+            "Linux",
+            "Tools",
+            "Analysis"
+        ],
+        "weights": {
+            "Security": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Information Security Analyst": {
+        "required_skills": [
+            "InfoSec",
+            "Risk Assessment",
+            "Compliance",
+            "Security Controls",
+            "Auditing",
+            "Documentation"
+        ],
+        "weights": {
+            "InfoSec": 3
+        },
+        "description": "Role created from user request."
+    },
+    "SOC Analyst": {
+        "required_skills": [
+            "SIEM",
+            "Splunk",
+            "Incident Handling",
+            "Monitoring",
+            "Network Traffic",
+            "Forensics"
+        ],
+        "weights": {
+            "SOC": 3,
+            "SIEM": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Penetration Tester / Ethical Hacker": {
+        "required_skills": [
+            "Penetration Testing",
+            "Ethical Hacking",
+            "Burp Suite",
+            "Kali Linux",
+            "Exploitation",
+            "Reporting"
+        ],
+        "weights": {
+            "Penetration Testing": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Network Security Engineer": {
+        "required_skills": [
+            "Network Security",
+            "Firewalls",
+            "VPN",
+            "IDS/IPS",
+            "Cisco",
+            "Routing"
+        ],
+        "weights": {
+            "Network Security": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Application Security Engineer": {
+        "required_skills": [
+            "AppSec",
+            "OWASP",
+            "Code Review",
+            "SAST/DAST",
+            "DevSecOps",
+            "Secure Coding"
+        ],
+        "weights": {
+            "AppSec": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Incident Response Analyst": {
+        "required_skills": [
+            "Incident Response",
+            "Forensics",
+            "Malware Analysis",
+            "Security",
+            "Documentation",
+            "Communication"
+        ],
+        "weights": {
+            "Incident Response": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Cloud Security Analyst": {
+        "required_skills": [
+            "Cloud Security",
+            "AWS/Azure",
+            "Compliance",
+            "IAM",
+            "Monitoring",
+            "Risk"
+        ],
+        "weights": {
+            "Cloud Security": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Linux Administrator": {
+        "required_skills": [
+            "Linux",
+            "Bash",
+            "Shell Scripting",
+            "Networking",
+            "Server Management",
+            "Security"
+        ],
+        "weights": {
+            "Linux": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Windows Administrator": {
+        "required_skills": [
+            "Windows Server",
+            "Active Directory",
+            "PowerShell",
+            "DNS",
+            "Group Policy",
+            "Azure AD"
+        ],
+        "weights": {
+            "Windows Server": 3
+        },
+        "description": "Role created from user request."
+    },
+    "IT Support Engineer": {
+        "required_skills": [
+            "Troubleshooting",
+            "Hardware",
+            "Software Help",
+            "Windows/Mac",
+            "Customer Service",
+            "Ticket Systems"
+        ],
+        "weights": {
+            "Troubleshooting": 3
+        },
+        "description": "Role created from user request."
+    },
+    "IT Helpdesk Technician": {
+        "required_skills": [
+            "Help Desk",
+            "Technical Support",
+            "Troubleshooting",
+            "Windows",
+            "Office 365",
+            "Hardware"
+        ],
+        "weights": {
+            "Help Desk": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Hardware Engineer": {
+        "required_skills": [
+            "Hardware Design",
+            "PCB",
+            "Electronics",
+            "Testing",
+            "Circuit Design",
+            "Soldering"
+        ],
+        "weights": {
+            "Hardware Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Software Test Engineer": {
+        "required_skills": [
+            "Testing",
+            "Software Quality",
+            "Regression Testing",
+            "Manual Testing",
+            "SQL",
+            "Documentation"
+        ],
+        "weights": {
+            "Testing": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Manual Tester": {
+        "required_skills": [
+            "Manual Testing",
+            "Test Cases",
+            "Bug Reporting",
+            "Jira",
+            "UI Testing",
+            "Attention to Detail"
+        ],
+        "weights": {
+            "Manual Testing": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Automation Tester (Selenium, Appium)": {
+        "required_skills": [
+            "Selenium",
+            "Appium",
+            "Java/Python",
+            "Test Automation",
+            "Scripting",
+            "Frameworks"
+        ],
+        "weights": {
+            "Selenium": 3,
+            "Automation": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Performance Tester": {
+        "required_skills": [
+            "Performance Testing",
+            "JMeter",
+            "LoadRunner",
+            "Load Testing",
+            "Analysis",
+            "Monitoring"
+        ],
+        "weights": {
+            "Performance Testing": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Quality Analyst": {
+        "required_skills": [
+            "Quality Assurance",
+            "Process Improvement",
+            "Auditing",
+            "Data Analysis",
+            "Reporting",
+            "Standards"
+        ],
+        "weights": {
+            "Quality Assurance": 3
+        },
+        "description": "Role created from user request."
+    },
+    "UI Designer": {
+        "required_skills": [
+            "UI Design",
+            "Figma",
+            "Sketch",
+            "Wireframing",
+            "Visual Design",
+            "Prototyping"
+        ],
+        "weights": {
+            "UI Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "UX Designer": {
+        "required_skills": [
+            "UX Design",
+            "User Research",
+            "Wireframing",
+            "Prototyping",
+            "Usability Testing",
+            "Figma"
+        ],
+        "weights": {
+            "UX Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "UX Researcher": {
+        "required_skills": [
+            "User Research",
+            "Interviews",
+            "Usability Testing",
+            "Data Analysis",
+            "Personas",
+            "Reporting"
+        ],
+        "weights": {
+            "User Research": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Product Designer": {
+        "required_skills": [
+            "Product Design",
+            "UX/UI",
+            "Problem Solving",
+            "Figma",
+            "Design Systems",
+            "Strategy"
+        ],
+        "weights": {
+            "Product Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Interaction Designer": {
+        "required_skills": [
+            "Interaction Design",
+            "Motion",
+            "Prototyping",
+            "Figma",
+            "User Flow",
+            "Animation"
+        ],
+        "weights": {
+            "Interaction Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Graphic Designer": {
+        "required_skills": [
+            "Graphic Design",
+            "Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Typography",
+            "Branding"
+        ],
+        "weights": {
+            "Graphic Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Product Owner": {
+        "required_skills": [
+            "Product Ownership",
+            "Backlog",
+            "User Stories",
+            "Scrum",
+            "Agile",
+            "Prioritization"
+        ],
+        "weights": {
+            "Product Ownership": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Program Manager": {
+        "required_skills": [
+            "Program Management",
+            "Strategy",
+            "Leadership",
+            "Coordination",
+            "Stakeholder Mgmt",
+            "Reporting"
+        ],
+        "weights": {
+            "Program Management": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Delivery Manager": {
+        "required_skills": [
+            "Delivery Management",
+            "Agile",
+            "Project Management",
+            "Leadership",
+            "Risk",
+            "Planning"
+        ],
+        "weights": {
+            "Delivery Management": 3
+        },
+        "description": "Role created from user request."
+    },
+    "IoT Developer": {
+        "required_skills": [
+            "IoT",
+            "Embedded",
+            "Python",
+            "MQTT",
+            "Sensors",
+            "Cloud"
+        ],
+        "weights": {
+            "IoT": 3
+        },
+        "description": "Role created from user request."
+    },
+    "IoT Embedded Engineer": {
+        "required_skills": [
+            "C",
+            "C++",
+            "RTOS",
+            "Microcontrollers",
+            "IoT",
+            "Firmware"
+        ],
+        "weights": {
+            "Embedded": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Mechatronics Engineer": {
+        "required_skills": [
+            "Mechatronics",
+            "Electronics",
+            "Mechanical",
+            "Control Systems",
+            "PLCs",
+            "Automation"
+        ],
+        "weights": {
+            "Mechatronics": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Hardware Design Engineer": {
+        "required_skills": [
+            "Hardware Design",
+            "PCB",
+            "Schematics",
+            "Testing",
+            "FPGA",
+            "Verilog"
+        ],
+        "weights": {
+            "Hardware Design": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Unreal Engine Developer": {
+        "required_skills": [
+            "Unreal Engine",
+            "C++",
+            "Blueprints",
+            "Game Development",
+            "3D",
+            "Lighting"
+        ],
+        "weights": {
+            "Unreal Engine": 3
+        },
+        "description": "Role created from user request."
+    },
+    "AR/VR Developer": {
+        "required_skills": [
+            "AR",
+            "VR",
+            "Unity",
+            "C#",
+            "3D",
+            "Computer Vision"
+        ],
+        "weights": {
+            "AR": 3,
+            "VR": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Research Engineer": {
+        "required_skills": [
+            "Research",
+            "Python",
+            "Algorithms",
+            "Prototyping",
+            "Technical Writing",
+            "Analysis"
+        ],
+        "weights": {
+            "Research": 3
+        },
+        "description": "Role created from user request."
+    },
+    "R&D Engineer": {
+        "required_skills": [
+            "R&D",
+            "Innovation",
+            "Prototyping",
+            "Engineering",
+            "Testing",
+            "Analysis"
+        ],
+        "weights": {
+            "R&D": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Research Associate": {
+        "required_skills": [
+            "Research",
+            "Data Collection",
+            "Analysis",
+            "Literature Review",
+            "Writing",
+            "Statistics"
+        ],
+        "weights": {
+            "Research": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Applied Researcher": {
+        "required_skills": [
+            "Applied Research",
+            "Machine Learning",
+            "Prototyping",
+            "Experimentation",
+            "Python",
+            "Problem Solving"
+        ],
+        "weights": {
+            "Applied Research": 3
+        },
+        "description": "Role created from user request."
+    },
+    "ERP Consultant (SAP/Oracle)": {
+        "required_skills": [
+            "ERP",
+            "SAP",
+            "Oracle",
+            "Business Processes",
+            "Configuration",
+            "Consulting"
+        ],
+        "weights": {
+            "ERP": 3,
+            "SAP": 2
+        },
+        "description": "Role created from user request."
+    },
+    "CRM Developer (Salesforce, Dynamics)": {
+        "required_skills": [
+            "CRM",
+            "Salesforce",
+            "Dynamics",
+            "Apex",
+            "Customization",
+            "Integration"
+        ],
+        "weights": {
+            "CRM": 3
+        },
+        "description": "Role created from user request."
+    },
+    "SAP ABAP Developer": {
+        "required_skills": [
+            "SAP",
+            "ABAP",
+            "ERP",
+            "Reports",
+            "Interfaces",
+            "Fiori"
+        ],
+        "weights": {
+            "ABAP": 3,
+            "SAP": 2
+        },
+        "description": "Role created from user request."
+    },
+    "SEO Specialist": {
+        "required_skills": [
+            "SEO",
+            "Google Analytics",
+            "Keyword Research",
+            "Content",
+            "HTML",
+            "Link Building"
+        ],
+        "weights": {
+            "SEO": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Digital Marketing Analyst": {
+        "required_skills": [
+            "Digital Marketing",
+            "Analytics",
+            "SEO/SEM",
+            "Data Analysis",
+            "Reporting",
+            "Campaigns"
+        ],
+        "weights": {
+            "Digital Marketing": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Growth Engineer": {
+        "required_skills": [
+            "Growth Hacking",
+            "Marketing",
+            "Data Analysis",
+            "Coding",
+            "A/B Testing",
+            "Experiments"
+        ],
+        "weights": {
+            "Growth Hacking": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Data Marketing Analyst": {
+        "required_skills": [
+            "Marketing Analytics",
+            "SQL",
+            "Tableau",
+            "Data Analysis",
+            "Statistics",
+            "Python"
+        ],
+        "weights": {
+            "Marketing Analytics": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Technical Support Engineer": {
+        "required_skills": [
+            "Technical Support",
+            "Troubleshooting",
+            "Customer Service",
+            "Linux/Windows",
+            "Documentation",
+            "Communication"
+        ],
+        "weights": {
+            "Technical Support": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Customer Success Engineer": {
+        "required_skills": [
+            "Customer Success",
+            "Technical Support",
+            "Relationship Mgmt",
+            "Product Knowledge",
+            "Communication",
+            "Onboarding"
+        ],
+        "weights": {
+            "Customer Success": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Solutions Engineer": {
+        "required_skills": [
+            "Solutions Engineering",
+            "Sales",
+            "Demo",
+            "Technical Presentation",
+            "Product",
+            "Communication"
+        ],
+        "weights": {
+            "Solutions Engineering": 3
+        },
+        "description": "Role created from user request."
+    },
+    "Solutions Architect": {
+        "required_skills": [
+            "Architecture",
+            "Design",
+            "Requirements",
+            "Cloud",
+            "Integration",
+            "Leadership"
+        ],
+        "weights": {
+            "Architecture": 2
+        },
+        "description": "Role created from user request."
+    },
+    "Technical Consultant": {
+        "required_skills": [
+            "Consulting",
+            "Implementation",
+            "Strategy",
+            "Technical Knowledge",
+            "Client Facing",
+            "Problem Solving"
+        ],
+        "weights": {
+            "Consulting": 3
+        },
+        "description": "Role created from user request."
+    }
+}

@@ -1,0 +1,59 @@
+AJAY .V 
+ Coimbatore, India  |  kit27.ad03@gmail.com  |  9445719029  |   Ajay.v  |  Ajay00 -7 
+EDUCATION  
+Kalaignar karunanidhi Institute of Technology – Coimbatore, India  2023 – 2027  
+B.Tech Artificial Intelligence & Data Science        Current CGPA: 7.0/10.0 
+Coursework:  Machine Learning, Data Structures & Algorithms, Database Management Systems,  Operating Systems, Computer 
+Networks, Data Preprocessing  
+ 
+EXPERIENCE  
+Intern – Appin Technology  – Coimbatore, India (Offline)  
+AI & Data Science Training  
+• Gained hands -on experience in machine learning workflows including data preprocessing, model building, and evaluation.  
+• Worked on practical AI projects to strengthen analytical thinking and real -world problem -solving skills.  
+Front -End Development Intern – Ether Infotech  – Coimbatore , India (Offline ) 
+• Developed responsive and user -friendly web interfaces using HTML, CSS, and JavaScript .  
+• Collaborated with deve lopment teams to design clean UI components and improve overall user experience.  
+ 
+PROJECTS  
+AI-Based Misinformation Propagation Analyzer | Python, Machine Learning, Network Analysis, Data Visualization   
+• Analyzed how misinformation (fake or misleading content) spreads across online platforms using data -driven approaches.  
+• Identified key factors that accelerate or slow down information propagation, such as user influence and sharing behavior  
+• Modeled information flow using graph -based analysis and visualiz ed spread patterns for better interpretability.  
+• Provided insights to support early detection and mitigation of misinformation.  
+CareerMatch AI | Python, NLP, Machine Learning, Data Analysis   
+• Developed an AI system that extracts skills, education, and experience from resumes (PDF/Text) using NLP techniques.  
+• Compared candidate profiles with job role requirements to calculate job match percentage.  
+• Identified missing skills and recommended suitable job roles based on resume –job similarity.  
+• Visualized candi date strengths and weaknesses using graphs to support data -driven career decisions.  
+ 
+TECHNICAL  SKILLS  
+C TypeScript  Git Node.js  Fast  API 
+Python  React.js  Github  SpringBoot  Postman,  
+Java  Next.js  JavaScript  DSA  MongoDB  
+SQL  Express.js  Docker  OOPS  Data Analysis  
+     
+COMPETITIVE  PROGRAMMING   
+CERTIFICATIONS  & COURSES  
+ 
+NPTEL:  Database Management Systems   
+Coursera  – Data Science , Machine Learning , Artificial 
+Intelligence , Deep Learning  
+Juniper  - Mist AI Associate  ,Open Learning Cloud Associat e 
+RapidMiner  - Data Engineering Master,  Machine Learning  
+CISCO  - Networking  Essentials   
+ 
+ 
+CodeChef:  Max rating – 1534 (Div 3) | Position – 2★ | Contests participated – 44 | Problems solved – 225+ | Global rank – 
+21,290 | Max streak – 4 days | Starters contests – 44 | Languages – Java, Python.  
+Skills & Achievements:  Strength in Advanced Data Structures and Algorithms: DP, Backtracking, Divide & Conquer | 
+Intermediate – Trees, Binary Trees, Hash Tables | Fundamental – Arrays, Linked List, Two Pointers.  
+LeetCode:  Max rating – 1534 | Problems solved – 225+ | Skills – DP, Trees, Hash Tables, Arrays, Linked List, Two  Pointers   
+ 
+ACHIEVEMENTS  
+• Completed  multiple industry -recognized certifications in AI, Data Science, and Software Development.  
+• Demonstrated above -average proficiency in DSA, SQL, Machine Learning, and Data Science . 
+• Achieved 2★ (1534 rating) on CodeChef , participated in 44 contests , and solved 225+ problems , demonstrating consistent 
+competitive programming skills.  
+• Secured Global Rank 21,290 on CodeChef  in rated contests, showcasing strong problem -solving ability.  
+• Solved 225+ problems on LeetCode with a peak rating of 1534, ranking a mong the top 2.15% globally.

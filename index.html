@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="CareerMatch AI - AI-Powered Resume Analysis & Skill Matching for optimized job applications.">
+    <title>CareerMatch AI | Smart Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <!-- Video Background -->
+    <video class="video-background" autoplay loop muted playsinline>
+        <source src="dummy.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                CareerMatch AI
+            </a>
+            <div class="nav-links">
+                <!-- Removed text links as requested -->
+                <a href="#upload-section" class="btn btn-primary">Upload Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>AI-Powered Resume Analysis &<br>Skill Matching</h1>
+            <p>Analyze your resume, identify skill gaps, and match with your dream job roles instantly with our advanced
+                AI engine.</p>
+            <!-- Updated Class -->
+            <a href="#upload-section" class="btn btn-gradient-green">
+                Analyze My Resume</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Upload & Input Section -->
+        <section id="upload-section" class="input-section">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Upload Your Resume</h3>
+                </div>
+
+                <div class="form-group"
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+                    <div>
+                        <label class="form-label" for="jobRole">Target Job Role</label>
+                        <input type="text" id="jobRole" class="form-control" list="jobRoles"
+                            placeholder="Type or select job role...">
+                        <datalist id="jobRoles">
+                            <!-- AI / ML / Data Intelligence -->
+                            <option value="AI Engineer">
+                            <option value="Machine Learning Engineer">
+                            <option value="Deep Learning Engineer">
+                            <option value="NLP Engineer">
+                            <option value="Computer Vision Engineer">
+                            <option value="Speech/Voice AI Engineer">
+                            <option value="Reinforcement Learning Engineer">
+                            <option value="Applied Scientist">
+                            <option value="Research Scientist (AI)">
+                            <option value="Algorithm Engineer">
+                            <option value="Prompt Engineer">
+                            <option value="Generative AI Engineer">
+                            <option value="MLOps Engineer">
+
+                                <!-- Data Science / Analytics -->
+                            <option value="Data Scientist">
+                            <option value="Data Analyst">
+                            <option value="Business Analyst">
+                            <option value="Business Intelligence Analyst">
+                            <option value="Data Engineer">
+                            <option value="Big Data Engineer">
+                            <option value="Data Architect">
+                            <option value="Data Modeler">
+                            <option value="Statistician">
+                            <option value="Quantitative Analyst">
+                            <option value="ETL Developer">
+                            <option value="Database Administrator (DBA)">
+
+                                <!-- Web Development -->
+                            <option value="Front-End Developer">
+                            <option value="Back-End Developer">
+                            <option value="Full-Stack Developer">
+                            <option value="Web Application Developer">
+                            <option value="JavaScript Developer">
+                            <option value="UI Developer">
+                            <option value="React Developer">
+                            <option value="Angular Developer">
+                            <option value="Vue Developer">
+
+                                <!-- Mobile Development -->
+                            <option value="Android Developer">
+                            <option value="iOS Developer">
+                            <option value="Flutter Developer">
+                            <option value="React Native Developer">
+                            <option value="Mobile App Engineer">
+
+                                <!-- Software Engineering -->
+                            <option value="Software Engineer">
+                            <option value="Software Developer">
+                            <option value="Application Developer">
+                            <option value="Systems Software Engineer">
+                            <option value="Platform Engineer">
+                            <option value="Embedded Systems Engineer">
+                            <option value="Firmware Engineer">
+                            <option value="C/C++ Developer">
+                            <option value="Java Developer">
+                            <option value="Python Developer">
+                            <option value=".NET Developer">
+
+                                <!-- Cloud & MLOps -->
+                            <option value="Cloud Engineer">
+                            <option value="Cloud Solutions Architect">
+                            <option value="Cloud Administrator">
+                            <option value="Cloud DevOps Engineer">
+                            <option value="Cloud Security Engineer">
+                            <option value="AWS/GCP/Azure Engineer">
+                            <option value="Cloud Support Engineer">
+                            <option value="Site Reliability Engineer (SRE)">
+                            <option value="Infrastructure Engineer">
+
+                                <!-- DevOps / Automation -->
+                            <option value="DevOps Engineer">
+                            <option value="Automation Engineer">
+                            <option value="Release Engineer">
+                            <option value="CI/CD Engineer">
+                            <option value="Kubernetes Engineer">
+                            <option value="Container Engineer">
+
+                                <!-- Cybersecurity -->
+                            <option value="Cybersecurity Engineer">
+                            <option value="Information Security Analyst">
+                            <option value="SOC Analyst">
+                            <option value="Penetration Tester / Ethical Hacker">
+                            <option value="Network Security Engineer">
+                            <option value="Security Architect">
+                            <option value="Application Security Engineer">
+                            <option value="Incident Response Analyst">
+                            <option value="Cloud Security Analyst">
+
+                                <!-- IT Infrastructure -->
+                            <option value="System Administrator">
+                            <option value="Linux Administrator">
+                            <option value="Windows Administrator">
+                            <option value="Network Administrator">
+                            <option value="IT Support Engineer">
+                            <option value="IT Helpdesk Technician">
+                            <option value="Hardware Engineer">
+
+                                <!-- Testing / Quality -->
+                            <option value="QA Engineer">
+                            <option value="Software Test Engineer">
+                            <option value="Manual Tester">
+                            <option value="Automation Tester (Selenium, Appium)">
+                            <option value="Performance Tester">
+                            <option value="Quality Analyst">
+
+                                <!-- UI/UX & Design -->
+                            <option value="UI Designer">
+                            <option value="UX Designer">
+                            <option value="UX Researcher">
+                            <option value="Product Designer">
+                            <option value="Interaction Designer">
+                            <option value="Graphic Designer">
+
+                                <!-- Product / Business -->
+                            <option value="Product Manager">
+                            <option value="Product Owner">
+                            <option value="Project Manager">
+                            <option value="Program Manager">
+                            <option value="Scrum Master">
+                            <option value="Delivery Manager">
+
+                                <!-- IoT / Robotics -->
+                            <option value="IoT Developer">
+                            <option value="IoT Embedded Engineer">
+                            <option value="Robotics Engineer">
+                            <option value="Mechatronics Engineer">
+                            <option value="Hardware Design Engineer">
+
+                                <!-- Game Development -->
+                            <option value="Game Developer">
+                            <option value="Unity Developer">
+                            <option value="Unreal Engine Developer">
+                            <option value="AR/VR Developer">
+
+                                <!-- Research -->
+                            <option value="Research Engineer">
+                            <option value="R&D Engineer">
+                            <option value="Research Associate">
+                            <option value="Applied Researcher">
+
+                                <!-- Enterprise Solutions -->
+                            <option value="ERP Consultant (SAP/Oracle)">
+                            <option value="CRM Developer (Salesforce, Dynamics)">
+                            <option value="SAP ABAP Developer">
+
+                                <!-- Digital & Growth -->
+                            <option value="SEO Specialist">
+                            <option value="Digital Marketing Analyst">
+                            <option value="Growth Engineer">
+                            <option value="Data Marketing Analyst">
+
+                                <!-- Support / Solutions -->
+                            <option value="Technical Support Engineer">
+                            <option value="Customer Success Engineer">
+                            <option value="Solutions Engineer">
+                            <option value="Solutions Architect">
+                            <option value="Technical Consultant">
+                        </datalist>
+                    </div>
+                    <div>
+                        <label class="form-label" for="experienceLevel">Experience Level</label>
+                        <select id="experienceLevel" class="form-control">
+                            <option value="entry">Entry Level (0-2 years)</option>
+                            <option value="mid">Mid Level (3-5 years)</option>
+                            <option value="senior">Senior Level (5+ years)</option>
+                            <option value="executive">Executive</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- SPLIT UPLOAD LAYOUT -->
+                <div class="upload-area" id="dropZone"
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+
+                    <!-- Left: Sample Resume -->
+                    <div style="text-align: center; border-right: 1px solid var(--border-color); padding-right: 1rem;">
+                        <p class="text-muted" style="margin-bottom: 1rem;">Don't have a resume handy?</p>
+                        <!-- Updated Class: Removed fixed width as requested -->
+                        <button id="sampleBtn" class="btn btn-gradient-green">Load Sample Resume</button>
+                    </div>
+
+                    <!-- Right: Browse & Drag -->
+                    <div style="text-align: center;">
+                        <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);">Drag & Drop
+                            your resume here</h3>
+                        <p class="text-secondary" style="font-size: 0.9rem; margin-bottom: 1rem;">Supported formats:
+                            PDF, DOCX, TXT</p>
+
+                        <label for="fileUpload" class="file-input-label">
+                            <!-- Updated Class -->
+                            <span class="btn btn-gradient-green" style="cursor: pointer; padding: 0.8rem 2rem;">Browse
+                                Files</span>
+                        </label>
+                        <input type="file" id="fileUpload"
+                            accept=".pdf,.txt,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            hidden>
+                    </div>
+                </div>
+
+                <div class="form-group" style="margin-top: 2rem;">
+                    <label class="form-label">Or paste resume text:</label>
+                    <textarea id="resumeText" class="form-control"
+                        placeholder="Paste your resume content here..."></textarea>
+                </div>
+
+                <!-- Updated Class -->
+                <button id="analyzeBtn" class="btn btn-block btn-gradient-green">
+                    Start Analysis
+                </button>
+            </div>
+        </section>
+
+        <!-- Loading Indicator (Hidden) -->
+        <div id="loading" style="display: none; text-align: center; padding: 4rem;">
+            <div class="stat-circle"
+                style="width: 60px; height: 60px; border: 4px solid var(--border-color); border-top-color: var(--color-primary); animation: spin 1s infinite linear; border-radius: 50%;">
+            </div>
+            <p style="margin-top: 1rem; color: var(--text-secondary);">Analyzing your profile...</p>
+        </div>
+        <style>
+            @keyframes spin {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+
+        <!-- Results Dashboard -->
+        <section id="resultsSection" class="results-section" style="display: none;">
+            <!-- resultsSection ID kept for compatibility -->
+
+            <div class="dashboard-grid">
+
+                <!-- Match Score Card -->
+                <div class="card col-span-4" style="text-align: center;">
+                    <div class="card-header" style="justify-content: center;">
+                        <h3 class="card-title">Match Score</h3>
+                    </div>
+                    <div class="score-circle-container">
+                        <svg class="progress-ring" width="160" height="160">
+                            <circle class="progress-ring__circle--bg" stroke="rgba(255,255,255,0.1)" stroke-width="12"
+                                fill="transparent" r="70" cx="80" cy="80" />
+                            <circle class="progress-ring__circle" stroke="var(--color-primary)" stroke-width="12"
+                                fill="transparent" r="70" cx="80" cy="80" />
+                        </svg>
+                        <div class="stat-value">0%</div>
+                    </div>
+                    <p class="text-secondary">Best Match: <strong>Software Engineer</strong></p>
+                </div>
+
+                <!-- ATS & Skills Overview -->
+                <div class="card col-span-8">
+                    <div class="card-header">
+                        <h3 class="card-title">Analysis Overview</h3>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; text-align: center;">
+                        <div class="score-stats">
+                            <div class="score-value" style="color: var(--success);" id="atsScore">85</div>
+                            <div class="score-label">ATS Score</div>
+                        </div>
+                        <div class="score-stats">
+                            <div class="score-value" style="color: var(--color-accent);" id="skillMatchCount">12</div>
+                            <div class="score-label">Skills Matched</div>
+                        </div>
+                        <div class="score-stats">
+                            <div class="score-value" style="color: var(--danger);" id="missingSkillsCount">4</div>
+                            <div class="score-label">Missing Skills</div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Bar Example -->
+                    <div style="margin-top: 1.5rem;">
+                        <label class="form-label" style="display:flex; justify-content:space-between;">
+                            <span>Keyword Relevance</span>
+                            <span>High</span>
+                        </label>
+                        <div
+                            style="height: 8px; background: var(--border-color); border-radius: 10px; overflow: hidden;">
+                            <div style="width: 80%; height: 100%; background: var(--color-primary);"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW: Top 5 Recommended Roles -->
+                <div class="card col-span-12">
+                    <div class="card-header">
+                        <h3 class="card-title">Top 5 Recommended Job Roles</h3>
+                    </div>
+                    <div id="recommendedRolesContainer"
+                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                        <!-- Dynamic content will be injected here -->
+                    </div>
+                </div>
+
+
+                <!-- Skills Breakdown -->
+                <div class="card col-span-12">
+                    <div class="card-header">
+                        <h3 class="card-title">Skills Breakdown</h3>
+                    </div>
+
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4
+                            style="font-size: 1rem; margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                            Matched Skills
+                        </h4>
+                        <div id="skillsContainer" class="skills-container">
+                            <!-- Dynamic Content -->
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4
+                            style="font-size: 1rem; margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                            Missing Important Skills
+                        </h4>
+                        <div class="skills-container" id="missingSkillsContainer">
+                            <!-- Dynamic Content -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visualizations -->
+                <div class="card col-span-6">
+                    <div class="card-header">
+                        <h3 class="card-title">Skill Distribution</h3>
+                    </div>
+                    <div style="position: relative; height: 250px;">
+                        <canvas id="matchChart"></canvas> <!-- Kept ID for app.js compat -->
+                    </div>
+                </div>
+
+                <div class="card col-span-6">
+                    <div class="card-header">
+                        <h3 class="card-title">Category Strength</h3>
+                    </div>
+                    <div style="position: relative; height: 250px;">
+                        <canvas id="categoryChart"></canvas> <!-- Kept ID for app.js compat -->
+                    </div>
+                </div>
+
+                <!-- Feedback Section -->
+                <div class="card col-span-12">
+                    <div class="card-header">
+                        <h3 class="card-title">AI Recommendations</h3>
+                    </div>
+                    <ul id="recommendationsList" style="padding-left: 1.5rem; color: var(--text-secondary);">
+                        <!-- Dynamic Content -->
+                    </ul>
+                </div>
+
+                <!-- Project Analysis (Hidden by default) -->
+                <div id="projectAnalysisCard" class="card col-span-12" style="display: none;">
+                    <div class="card-header">
+                        <h3 class="card-title">Project Portfolio Analysis</h3>
+                    </div>
+                    <div id="projectAnalysisContent"></div>
+                </div>
+
+                <!-- Internship Analysis (Hidden by default) -->
+                <div id="internshipCard" class="card col-span-12" style="display: none;">
+                    <div class="card-header">
+                        <h3 class="card-title">Internships</h3>
+                    </div>
+                    <div id="internshipContent"></div>
+                </div>
+
+                <!-- Training & Workshops (Hidden by default) -->
+                <div id="trainingCard" class="card col-span-12" style="display: none;">
+                    <div class="card-header">
+                        <h3 class="card-title">Training & Workshops</h3>
+                    </div>
+                    <div id="trainingContent"></div>
+                </div>
+
+                <!-- Hidden elements for app.js compatibility or future use -->
+                <p id="summaryText" style="display:none;"></p>
+                <p id="educationText" style="display:none;"></p>
+                <div id="jobMatchList" style="display:none;"></div>
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mammoth@1.6.0/mammoth.browser.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

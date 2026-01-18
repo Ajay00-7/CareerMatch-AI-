@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+uploads/*.pdf
+uploads/*.docx
+uploads/*.txt
+
+# Keep uploads folder but not files
+!uploads/.gitkeep
+
+# ML Models (optional - remove if you want to track them)
+# models/*.pkl
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
