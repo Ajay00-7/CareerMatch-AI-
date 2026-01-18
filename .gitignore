@@ -37,3 +37,11 @@ uploads/*.txt
 *.egg-info/
 dist/
 build/
+
+# Sensitivity / Secrets
+.env
+config.env
+secrets.json
+apikeys.txt
+application.properties
+
