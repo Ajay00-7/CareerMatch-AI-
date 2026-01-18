@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://github.com/Ajay00-7/CareerMatch-AI)
+
 # 🎯 CareerMatch AI - Intelligent Resume Analysis & Job Matching
 
 AI-powered resume analyzer that uses Natural Language Processing (NLP) and Machine Learning to extract skills, match job roles, and provide career recommendations.
